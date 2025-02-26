@@ -108,7 +108,7 @@
   },
   {
     "symptom": "Alcohol Intake",
-    'Selected': "true",
+    "Selected": true,
     "system": "2. Social History",
     "followUps": [
       {
@@ -136,7 +136,7 @@
   },
   {
     "symptom": "Smoking History",
-    "Selected": "true",
+    "Selected": true,
     "system": "2. Social History",
     "followUps": [
       {
@@ -3878,7 +3878,7 @@
   },
   {
     "symptom": "Diet",
-    'Selected': "true",
+    "Selected": true,
     "system": "2. Social History",
     "followUps": [
       {
@@ -3918,7 +3918,7 @@
   },
   {
     "symptom": "Sleep",
-    'Selected': "true",
+    "Selected": true,
     "system": "2. Social History",
     "followUps": [
       {
@@ -3955,7 +3955,7 @@
   {
     "symptom": "Other Personal History",
     "system": "2. Social History",
-    'Selected': "true",
+    "Selected": true,
     "followUps": [
       {
         "question": "Alcohol consumption (e.g., daily, weekly, occasional):",
@@ -8600,7 +8600,7 @@
         "type": "dropdown",
         "options": [
           "Pain improves with movement (secondary osteoarthritis)",
-          "Pain is constant or gnawing ("true" bone pain)",
+          "Pain is constant or gnawing (true bone pain)",
           "Pain worsens at night",
           "Pain may indicate pathological fracture or osteosarcoma",
           "None"
@@ -10594,7 +10594,7 @@
   {
     "symptom": "Treatment History",
     "system": "General",
-    'Selected': "true",
+    "Selected": true,
     "followUps": [
       {
         "question": "Current medications being taken:",
