@@ -3122,7 +3122,7 @@
           "No symptoms and no limitation in ordinary physical activity I",
           "Slight limitation of physical activity, with symptoms like fatigue, palpitations, or dyspnea during ordinary physical activity II",
           "Marked limitation of physical activity, with symptoms like fatigue, palpitations, or dyspnea during less than ordinary activity III",
-          'Inability to carry on any physical activity without discomfort, with symptoms present even at rest or minimal exertion IV',
+          "Inability to carry on any physical activity without discomfort, with symptoms present even at rest or minimal exertion IV"
         ]
       },
       {
@@ -3133,7 +3133,7 @@
           "No symptoms and no limitation in ordinary physical activity I",
           "Slight limitation of physical activity, with symptoms like fatigue, palpitations, or dyspnea during ordinary physical activity II",
           "Marked limitation of physical activity, with symptoms like fatigue, palpitations, or dyspnea during less than ordinary activity III",
-          'Inability to carry on any physical activity without discomfort, with symptoms present even at rest or minimal exertion IV',
+          "Inability to carry on any physical activity without discomfort, with symptoms present even at rest or minimal exertion IV"
         ]
       },
       {
@@ -3175,8 +3175,8 @@
           "Dyspnea only with strenuous exercise 0",
           "Dyspnea when hurrying or walking up a slight hill 1",
           "Walks slower than people of the same age because of dyspnea or has to stop for breath when walking at own pace 2",
-          'Stops for breath after walking 100 yards (91 m) or after a few minutes 3',
-          'Too dyspneic to leave house or breathless when dressing 4'
+          "Stops for breath after walking 100 yards (91 m) or after a few minutes 3",
+          "Too dyspneic to leave house or breathless when dressing 4"
         ]
       },
       {
@@ -3187,8 +3187,8 @@
           "Dyspnea only with strenuous exercise 0",
           "Dyspnea when hurrying or walking up a slight hill",
           "Walks slower than people of the same age because of dyspnea or has to stop for breath when walking at own pace 2",
-          'Stops for breath after walking 100 yards (91 m) or after a few minutes 3',
-          'Too dyspneic to leave house or breathless when dressing 4'
+          "Stops for breath after walking 100 yards (91 m) or after a few minutes 3",
+          "Too dyspneic to leave house or breathless when dressing 4"
         ]
       },
       {
@@ -4180,7 +4180,7 @@
         "question":
             "Do they experience worsening of symptoms with exercise or weather changes?",
         "type": "text",
-        "id": "symptomTriggers",
+        "id": "symptomTriggers"
       },
       {
         "question": "Have they been vaccinated for PCV/Influenza, when?",
@@ -4206,27 +4206,27 @@
       {
         "question": "Do they have a history of alcohol use? Quantify",
         "type": "text",
-        "id": "alcoholHistory",
+        "id": "alcoholHistory"
       },
       {
         "question": "History of blood transfusion?",
         "type": "text",
-        "id": "alcoholHistory",
+        "id": "alcoholHistory"
       },
       {
         "question": "History of high risk behaviour,tattoo, iv drugs?",
         "type": "text",
-        "id": "alcoholHistory",
+        "id": "alcoholHistory"
       },
       {
         "question": "History of jaundice?",
         "type": "text",
-        "id": "alcoholHistory",
+        "id": "alcoholHistory"
       },
       {
         "question": "Do they experience symptoms like ascites or jaundice?",
         "type": "text",
-        "id": "cldSymptoms",
+        "id": "cldSymptoms"
       },
       {
         "question":
@@ -4238,7 +4238,7 @@
         "question":
             "Have they undergone endoscopy for varices? when? findings?",
         "type": "text",
-        "id": "endoscopyForVarices",
+        "id": "endoscopyForVarices"
       },
       {
         "question":
@@ -10616,12 +10616,12 @@
       {
         "question": "Recent hospitalizations for treatment-related reasons:",
         "type": "text",
-        "id": "recentHospitalizations",
+        "id": "recentHospitalizations"
       },
       {
         "question": "Previous surgical interventions:",
         "type": "text",
-        "id": "previousSurgery",
+        "id": "previousSurgery"
       },
       {
         "question": "Allergies to medications or treatments:",
@@ -10636,7 +10636,7 @@
       {
         "question": "Recent antibiotic use? which for how long and why:",
         "type": "text",
-        "id": "patientInvolvement",
+        "id": "patientInvolvement"
       }
     ]
   }]
