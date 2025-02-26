@@ -1,4 +1,4 @@
- {
+[ {
     "symptom": "Abdominal Distention",
     "system": "Gastrointestinal",
     "followUps": [
@@ -10639,4 +10639,4 @@
         "id": "patientInvolvement",
       }
     ]
-  }
+  }]
