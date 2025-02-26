@@ -1,0 +1,1416 @@
+[
+{
+    "system": "Vitals",
+    "exam": "Temperature",
+    "followUps": [
+      {
+        "question": "Temperature measurement",
+        "type": "dropdown",
+        "options": ["Oral", "Axillary", "Rectal", "Tympanic", "Temporal"]
+      },
+      {"question": "Temperature value (C / F)", "type": "text"},
+      {
+        "question": "Fever",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      }
+    ]
+  },
+  {
+    "system": "Vitals",
+    "exam": "Pulse",
+    "followUps": [
+      {"question": "Pulse rate (bpm)", "type": "text"},
+      {
+        "question": "Pulse rhythm",
+        "type": "dropdown",
+        "options": ["Regular", "Irregular"]
+      },
+      {
+        "question": "Pulse volume",
+        "type": "dropdown",
+        "options": ["Normal", "Bounding", "Weak"]
+      },
+      {
+        "question": "Pulse character",
+        "type": "multi-select",
+        "options": [
+          "Normal",
+          "Pulsus alternans",
+          "Pulsus paradoxus",
+          "Pulsus bisferiens"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "Vitals",
+    "exam": "Blood Pressure",
+    "followUps": [
+      {"question": "Systolic BP (mmHg)", "type": "text"},
+      {"question": "Diastolic BP (mmHg)", "type": "text"},
+      {
+        "question": "BP classification",
+        "type": "dropdown",
+        "options": [
+          "Normal",
+          "Elevated",
+          "Hypertension stage 1",
+          "Hypertension stage 2",
+          "Hypertensive crisis"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "Vitals",
+    "exam": "Respiratory Rate",
+    "followUps": [
+      {"question": "Respiratory rate (breaths/min)", "type": "text"},
+      {
+        "question": "Respiratory pattern",
+        "type": "dropdown",
+        "options": [
+          "Normal",
+          "Tachypnea",
+          "Bradypnea",
+          "Cheyne-Stokes",
+          "Kussmaul",
+          "Biot's respiration"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "Vitals",
+    "exam": "Oxygen Saturation",
+    "followUps": [
+      {"question": "SpO2 (%)", "type": "text"},
+      {
+        "question": "Oxygen supplementation",
+        "type": "dropdown",
+        "options": ["None", "Supplemental oxygen"]
+      }
+    ]
+  },
+  {
+    "system": "Vitals",
+    "exam": "Weight",
+    "followUps": [
+      {"question": "Weight (kg)", "type": "text"},
+      {"question": "BMI", "type": "text"},
+      {
+        "question": "Weight changes",
+        "type": "dropdown",
+        "options": ["None", "Loss", "Gain"]
+      }
+    ]
+  },
+  {
+    "system": "Vitals",
+    "exam": "Height",
+    "followUps": [
+      {"question": "Height (cm)", "type": "text"}
+    ]
+  },
+  {
+    "system": "General Examination",
+    "exam": "Quick Exam",
+    "followUps": [
+      {
+        "question": "CVS",
+        "type": "multi-select",
+        "options": ["S1S2 M0", "as below"]
+      },
+      {
+        "question": "RS",
+        "type": "multi-select",
+        "options": ["b/l normal vesicular breath sounds", "as below"]
+      },
+      {
+        "question": "CNS",
+        "type": "multi-select",
+        "options": ["well oriented, no focal neurological deficit", "as below"]
+      },
+      {
+        "question": "PA",
+        "type": "multi-select",
+        "options": [
+          "soft non-tender, no organomegaly, bowel sounds pressent",
+          "as below"
+        ]
+      },
+      {"question": "CNS", "type": "text"},
+      {"question": "RS", "type": "text"},
+      {"question": "PA", "type": "text"},
+      {"question": "CVS", "type": "text"},
+      {"question": "CNS", "type": "text"},
+      {"question": "RS", "type": "text"},
+      {"question": "PA", "type": "text"}
+    ]
+  },
+  {
+    "system": "General Examination",
+    "exam": "General Inspection",
+    "followUps": [
+      {
+        "question": "Pallor",
+        "type": "multi-select",
+        "options": [
+          "Absent",
+          "Conjuctival",
+          "Palmar crease",
+          "Nail bed",
+          "Oral mucosal"
+        ]
+      },
+      {
+        "question": "Icterus",
+        "type": "dropdown",
+        "options": ["Absent", "Present"]
+      },
+      {
+        "question": "Cyanosis",
+        "type": "dropdown",
+        "options": ["Absent", "Central", "Peripheral", "Both"]
+      },
+      {
+        "question":
+            "Lymphadenopathy: Site,Size,Number,Mobility,Tenderness,skin",
+        "type": "text"
+      },
+      {
+        "question": "Clubbing",
+        "type": "dropdown",
+        "options": [
+          "Absent",
+          "Grade 1: fluctuating nail bed",
+          "Grade 2:obliteration of Lovibond angle/Shamroths sign",
+          "Grade 3: parrot beak",
+          "Grade 4: Hypertrophic osteo-arthropathy (HOA)"
+        ]
+      },
+      {
+        "question": "Edema",
+        "type": "dropdown",
+        "options": ["Absent", "Pitting", "Non-pitting"]
+      },
+      {
+        "question": "Edema Extension if present, Sacral if bedbound",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "system": "CNS",
+    "exam": "MMSC",
+    "followUps": [
+      {
+        "question": "What is the year, season, date, day, and month?",
+        "type": "text"
+      },
+      {
+        "question": "Where are we now? (State, country, town, hospital, floor)",
+        "type": "text"
+      },
+      {
+        "question": "Repeat the following words: Apple, Table, Penny",
+        "type": "text"
+      },
+      {
+        "question": "What is this object? (Show a pen and a watch)",
+        "type": "text"
+      },
+      {
+        "question":
+            "Follow the command: 'Take this paper in your right hand, fold it in half, and put it on the floor.'",
+        "type": "dropdown",
+        "options": ["Completed correctly", "Partially completed", "Incorrect"]
+      },
+      {"question": "Recall the three words from earlier", "type": "text"},
+      {"question": "Spell 'WORLD' backwards", "type": "text"},
+      {"question": "Write a complete sentence", "type": "text"},
+      {
+        "question": "Copy the intersecting pentagons",
+        "type": "dropdown",
+        "options": ["Correct", "Partially correct", "Incorrect"]
+      },
+      {
+        "question":
+            "Serial sevens subtraction (Start from 100, subtract by 7 each time)",
+        "type": "dropdown",
+        "options": ["All correct", "One mistake", "Multiple mistakes"]
+      },
+      {
+        "question": "Orientation",
+        "type": "multi-select",
+        "options": ["Time", "Place", "Person", "Situation"]
+      }
+    ]
+  },
+  {
+    "system": "Cardiovascular",
+    "exam": "CVS Inspection",
+    "followUps": [
+      {
+        "question": "Apex impulse (site seen)",
+        "type": "text"
+      },
+      {
+        "question": "Nail changes",
+        "type": "multi-select",
+        "options": [
+          "Splinter hemorrhage",
+          "Clubbing",
+          "Janeway lesions",
+          "Osler's nodes"
+        ]
+      },
+      {
+        "question": "Peripheral signs",
+        "type": "multi-select",
+        "options": [
+          "Pallor",
+          "Cyanosis",
+          "Cold, clammy hands",
+          "Delayed capillary refill time (CRT)"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "Cardiovascular",
+    "exam": "CVS Palpation",
+    "followUps": [
+      {
+        "question": "Pulse examination",
+        "type": "multi-select",
+        "options": [
+          "Irregular rhythm",
+          "Bounding pulse",
+          "Pulsus paradoxus",
+          "Pulsus alternans"
+        ]
+      },
+      {
+        "question": "Jugular Venous Pressure (JVP)",
+        "type": "dropdown",
+        "options": ["Normal", "Elevated", "Kussmaul's sign present"]
+      },
+      {
+        "question": "Apex beat (site palpable)",
+        "type": "text"
+      },
+      {
+        "question": "Apex beat characteristics",
+        "type": "multi-select",
+        "options": [
+          "Normal",
+          "Displaced",
+          "Tapping (MS)",
+          "Heaving (AS, LVH)",
+          "Thrusting (MR, AR)"
+        ]
+      },
+      {
+        "question": "Precordial palpation",
+        "type": "multi-select",
+        "options": ["Parasternal heave", "Thrills", "Right ventricular heave"]
+      }
+    ]
+  },
+  {
+    "system": "Cardiovascular",
+    "exam": "CVS Auscultation",
+    "followUps": [
+      {
+        "question": "Heart sounds",
+        "type": "multi-select",
+        "options": [
+          "S1 heard",
+          "S1 loud",
+          "S1 soft",
+          "S2 heard",
+          "S2 loud",
+          "S2 split",
+          "S3 present",
+          "S4 present"
+        ]
+      },
+      {
+        "question": "Murmurs",
+        "type": "multi-select",
+        "options": [
+          "Systolic murmur",
+          "Diastolic murmur",
+          "Continuous murmur",
+          "Ejection click",
+          "Mid-systolic click"
+        ]
+      },
+      {
+        "question": "Murmurs increses with?",
+        "type": "multi-select",
+        "options": [
+          "Systolic murmur",
+          "Diastolic murmur",
+          "Continuous murmur",
+          "Ejection click",
+          "Mid-systolic click"
+        ]
+      },
+      {
+        "question": "Factors that increase murmur intensity",
+        "type": "multi-select",
+        "options": [
+          "Inspiration (Right-sided murmurs)",
+          "Expiration (Left-sided murmurs)",
+          "Handgrip (MR, AR, VSD)",
+          "Squatting (AS, MR, AR)",
+          "Leg raise (Increases venous return)"
+        ]
+      },
+      {
+        "question": "Factors that decrease murmur intensity",
+        "type": "multi-select",
+        "options": [
+          "Valsalva (Most murmurs except HCM, MVP)",
+          "Standing (Reduces preload, decreases most murmurs)",
+          "Amyl nitrite (Decreases afterload, reduces MR, AR murmurs)"
+        ]
+      },
+      {
+        "question": "Murmur radiation",
+        "type": "multi-select",
+        "options": [
+          "Carotid arteries (AS)",
+          "Axilla (MR)",
+          "Left sternal border (AR)",
+          "Back (PDA, Coarctation of Aorta)"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "Cardiovascular",
+    "exam": "Peripheral Vascular Examination",
+    "followUps": [
+      {
+        "question": "Peripheral vascular examination",
+        "type": "multi-select",
+        "options": [
+          "Radio-femoral delay",
+          "Radio-radial delay",
+          "Carotid Bruits",
+          "Vertebral Bruits"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "Respiratory",
+    "exam": "Respiratory Inspection",
+    "followUps": [
+      {"question": "Chest shape and symmetry", "type": "text"},
+      {
+        "question": "Decreased movements on any side?",
+        "type": "multi-select",
+        "options": ["Right", "Left"]
+      },
+      {"question": "Respiratory rate", "type": "text"},
+      {
+        "question": "Accessory muscle use",
+        "type": "multi-select",
+        "options": [
+          "Nasal flaring",
+          "Intercostal retractions",
+          "Supraclavicular retractions",
+          "Subcostal retractions"
+        ]
+      },
+      {
+        "question": "Skin and mucous membranes",
+        "type": "multi-select",
+        "options": ["Cyanosis", "Pallor", "Clubbing"]
+      }
+    ]
+  },
+  {
+    "system": "Respiratory",
+    "exam": "Respiratory Palpation",
+    "followUps": [
+      {
+        "question": "Tracheal position",
+        "type": "dropdown",
+        "options": ["Midline", "Deviated"]
+      },
+      {"question": "Chest AP diameter", "type": "text"},
+      {"question": "Chest transverse diameter", "type": "text"},
+      {
+        "question": "Chest Circumference at inspiration / expiration",
+        "type": "text"
+      },
+      {
+        "question": "Chest expansion equal/decreased in which side?",
+        "type": "text"
+      },
+      {
+        "question":
+            "Tactile fremitus if increased/decreased/absent in which area?",
+        "type": "text"
+      },
+      {"question": "Chest tenderness", "type": "text"}
+    ]
+  },
+  {
+    "system": "Respiratory",
+    "exam": "Respiratory Auscultation",
+    "followUps": [
+      {
+        "question": "Breath sounds Right Supraclavicular",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Left Supraclavicular",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Right Infraclavicular",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Left Infraclavicular",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Right Mammary",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Left Mammary",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Right Axillary",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Left Axillary",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Right Infra-axillary",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Left Infra-axillary",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Right Suprascapular",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Left Suprascapular",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Right Interscapular",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Left Interscapular",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Right Infrascapular",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Breath sounds Left Infrascapular",
+        "type": "multi-select",
+        "options": ["Vesicular", "Bronchial", "Bronchovesicular", "Absent"]
+      },
+      {
+        "question": "Adventitious sounds Right Supraclavicular",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Left Supraclavicular",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Right Infraclavicular",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Left Infraclavicular",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Right Mammary",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Left Mammary",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Right Axillary",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Left Axillary",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Right Infra-axillary",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Left Infra-axillary",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Right Suprascapular",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Left Suprascapular",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Right Interscapular",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Left Interscapular",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Right Infrascapular",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Adventitious sounds Left Infrascapular",
+        "type": "multi-select",
+        "options": ["Crackles", "Wheezes", "Rhonchi", "Stridor", "Pleural rub"]
+      },
+      {
+        "question": "Egophony Right Supraclavicular",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Left Supraclavicular",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Right Infraclavicular",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Left Infraclavicular",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Right Mammary",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Left Mammary",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Right Axillary",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Left Axillary",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Right Infra-axillary",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Left Infra-axillary",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Right Suprascapular",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Left Suprascapular",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Right Interscapular",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Left Interscapular",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Right Infrascapular",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Egophony Left Infrascapular",
+        "type": "dropdown",
+        "options": ["Normal", "E-to-A change"]
+      },
+      {
+        "question": "Whispered pectoriloquy Right Supraclavicular",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Left Supraclavicular",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Right Infraclavicular",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Left Infraclavicular",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Right Mammary",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Left Mammary",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Right Axillary",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Left Axillary",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Right Infra-axillary",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Left Infra-axillary",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Right Suprascapular",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Left Suprascapular",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Right Interscapular",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Left Interscapular",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Right Infrascapular",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      },
+      {
+        "question": "Whispered pectoriloquy Left Infrascapular",
+        "type": "dropdown",
+        "options": ["Normal", "Increased", "Decreased"]
+      }
+    ]
+  },
+  {
+    "system": "Respiratory",
+    "exam": "Respiratory Percussion",
+    "followUps": [
+      {
+        "question": "Percussion Right Supraclavicular",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Left Supraclavicular",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Right Infraclavicular",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Left Infraclavicular",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Right Mammary",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Left Mammary",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Right Axillary",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Left Axillary",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Right Infra-axillary",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Left Infra-axillary",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Right Suprascapular",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Left Suprascapular",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Right Interscapular",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Left Interscapular",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Right Infrascapular",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      },
+      {
+        "question": "Percussion Left Infrascapular",
+        "type": "dropdown",
+        "options": ["Resonant", "Dull", "Hyperresonant", "Tympanic"]
+      }
+    ]
+  },
+  {
+    "system": "Abdomen",
+    "exam": "Abdominal Inspection",
+    "followUps": [
+      {
+        "question": "Abdominal distension",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      },
+      {
+        "question": "Visible peristalsis",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      },
+      {
+        "question": "Skin changes",
+        "type": "multi-select",
+        "options": [
+          "Striae",
+          "Scar",
+          "Bruising",
+          "Spider angioma",
+          "Jaundice",
+          "Ecchymosis"
+        ]
+      },
+      {
+        "question": "Masses",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      },
+      {
+        "question": "Other abnormalities",
+        "type": "multi-select",
+        "options": ["Ascites", "Visible pulsations", "Hernias"]
+      },
+      {
+        "question":
+            "Describe any of the above abdominal inspection findings if needed",
+        "type": "text",
+        "options": ["Present", "Absent"]
+      }
+    ]
+  },
+  {
+    "system": "Abdomen",
+    "exam": "Abdominal Palpation",
+    "followUps": [
+      {
+        "question": "Tenderness",
+        "type": "multi-select",
+        "options": [
+          "Generalized tenderness",
+          "Localized tenderness",
+          "Rebound tenderness",
+          "Guarding",
+          "Rigidity"
+        ]
+      },
+      {
+        "question": "Masses",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      },
+      {
+        "question": "Liver edge",
+        "type": "dropdown",
+        "options": ["Palpable", "Non-palpable"]
+      },
+      {"question": "Liver span", "type": "text"},
+      {
+        "question": "Spleen edge",
+        "type": "dropdown",
+        "options": ["Palpable", "Non-palpable"]
+      },
+      {"question": "Spleen size,margin", "type": "text"},
+      {
+        "question": "Kidneys",
+        "type": "dropdown",
+        "options": ["Palpable", "Non-palpable"]
+      },
+      {
+        "question": "Aorta pulsations",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      },
+      {
+        "question":
+            "Describe any of the above abdominal palpation findings if needed",
+        "type": "text",
+        "options": ["Present", "Absent"]
+      }
+    ]
+  },
+  {
+    "system": "Abdomen",
+    "exam": "Abdominal Percussion",
+    "followUps": [
+      {
+        "question": "Percussion over liver",
+        "type": "dropdown",
+        "options": ["Dull", "Resonant"]
+      },
+      {
+        "question": "Percussion over spleen",
+        "type": "dropdown",
+        "options": ["Dull", "Resonant"]
+      },
+      {
+        "question": "Percussion over stomach",
+        "type": "dropdown",
+        "options": ["Tympanic", "Resonant"]
+      },
+      {
+        "question": "Percussion over intestines",
+        "type": "dropdown",
+        "options": ["Tympanic", "Resonant"]
+      },
+      {
+        "question": "Percussion for ascites (Shifting dullness)",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      },
+      {
+        "question": "Percussion for fluid wave",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      },
+      {
+        "question":
+            "Describe any of the above abdominal percussion findings if needed",
+        "type": "text",
+        "options": ["Present", "Absent"]
+      }
+    ]
+  },
+  {
+    "system": "Abdomen",
+    "exam": "Abdominal Auscultation",
+    "followUps": [
+      {
+        "question": "Bowel sounds",
+        "type": "dropdown",
+        "options": ["Normal", "Hypoactive", "Hyperactive", "Absent"]
+      },
+      {
+        "question": "Bruits",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      },
+      {
+        "question": "Friction rubs",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      },
+      {
+        "question": "Vascular sounds",
+        "type": "dropdown",
+        "options": ["Present", "Absent"]
+      },
+      {
+        "question":
+            "Describe any of the above abdominal auscultation findings if needed",
+        "type": "text",
+        "options": ["Present", "Absent"]
+      }
+    ]
+  },
+  {
+    "system": "CNS",
+    "exam": "Mental Status",
+    "followUps": [
+      {
+        "question": "Level of consciousness",
+        "type": "dropdown",
+        "options": ["Alert", "Drowsy", "Confused", "Comatose"]
+      },
+      {
+        "question": "Orientation",
+        "type": "multi-select",
+        "options": ["Time", "Place", "Person", "Situation"]
+      },
+      {
+        "question": "Speech",
+        "type": "multi-select",
+        "options": [
+          "Normal",
+          "Dysphasia",
+          "Aphasia",
+          "Dysarthria",
+          "Slurred speech",
+          "Mute"
+        ]
+      },
+      {
+        "question": "Mood and affect",
+        "type": "multi-select",
+        "options": ["Normal", "Depressed", "Anxious", "Irritable", "Euphoric"]
+      }
+    ]
+  },
+  {
+    "system": "CNS",
+    "exam": "Cranial Nerves",
+    "followUps": [
+      {
+        "question": "CN I (Olfactory)",
+        "type": "dropdown",
+        "options": ["Normal", "Anosmia"]
+      },
+      {
+        "question": "CN II (Optic)",
+        "type": "multi-select",
+        "options": [
+          "Visual acuity",
+          "Pupillary reaction to light",
+          "Fundoscopy (Papilledema, Optic disc swelling)"
+        ]
+      },
+      {"question": "CN II (Findings if any)", "type": "text"},
+      {
+        "question": "CN III, IV, VI (Oculomotor, Trochlear, Abducens)",
+        "type": "multi-select",
+        "options": [
+          "Pupillary light reflex",
+          "Accommodation reflex",
+          "Eye movements"
+        ]
+      },
+      {"question": "CN III, IV, VI (Findings if any)", "type": "text"},
+      {
+        "question": "CN V (Trigeminal)",
+        "type": "multi-select",
+        "options": [
+          "Sensory function (light touch, pinprick, temperature)",
+          "Corneal reflex",
+          "Motor function (muscles of mastication)"
+        ]
+      },
+      {"question": "CN V (Findings if any)", "type": "text"},
+      {
+        "question": "CN VII (Facial)",
+        "type": "multi-select",
+        "options": [
+          "Facial asymmetry",
+          "Smile, raise eyebrows",
+          "Taste sensation (anterior 2/3 tongue)"
+        ]
+      },
+      {"question": "CN VII (Findings if any)", "type": "text"},
+      {
+        "question": "CN VIII (Vestibulocochlear)",
+        "type": "multi-select",
+        "options": [
+          "Hearing (Rinne and Weber tests)",
+          "Vestibular function (balance, nystagmus)"
+        ]
+      },
+      {"question": "CN VIII (Findings if any)", "type": "text"},
+      {
+        "question": "CN IX and X (Glossopharyngeal and Vagus)",
+        "type": "multi-select",
+        "options": [
+          "Palate elevation (uvula movement)",
+          "Gag reflex",
+          "Taste sensation (posterior 1/3 tongue)"
+        ]
+      },
+      {"question": "CN IX,X (Findings if any)", "type": "text"},
+      {
+        "question": "CN XI (Accessory)",
+        "type": "multi-select",
+        "options": [
+          "Shoulder shrug (both sides)",
+          "Head turning against resistance"
+        ]
+      },
+      {"question": "CN XI (Findings if any)", "type": "text"},
+      {
+        "question": "CN XII (Hypoglossal)",
+        "type": "multi-select",
+        "options": ["Tongue movement", "Atrophy or fasciculations"]
+      },
+      {"question": "CN XII (Findings if any)", "type": "text"}
+    ]
+  },
+  {
+    "system": "CNS",
+    "exam": "Motor System",
+    "followUps": [
+      {
+        "question": "Muscle bulk",
+        "type": "dropdown",
+        "options": ["Normal", "Atrophy", "Hypertrophy"]
+      },
+      {
+        "question": "Muscle tone",
+        "type": "dropdown",
+        "options": ["Normal", "Hypotonia", "Hypertonia"]
+      },
+      {
+        "question": "Right Ankle Dorsiflexion Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Ankle Dorsiflexion Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Right Ankle Plantarflexion Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Ankle Plantarflexion Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Right Knee Extension Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Knee Extension Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Right Knee Flexion Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Knee Flexion Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Right Hip Flexion Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Hip Flexion Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Right Hip Extension Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Hip Extension Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Right Shoulder Abduction Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Shoulder Abduction Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Right Shoulder Adduction Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Shoulder Adduction Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Right Elbow Flexion Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Elbow Flexion Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Right Elbow Extension Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Elbow Extension Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Right Hand Grip Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Left Hand Grip Strength",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4", "5"]
+      },
+      {
+        "question": "Coordination",
+        "type": "multi-select",
+        "options": [
+          "Finger-to-nose test",
+          "Heel-to-shin test",
+          "Rapid alternating movements (Dysdiadochokinesia)"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CNS",
+    "exam": "Reflexes",
+    "followUps": [
+      {
+        "question": "Right Biceps Reflex",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      {
+        "question": "Left Biceps Reflex",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      {
+        "question": "Right Triceps Reflex",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      {
+        "question": "Left Triceps Reflex",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      {
+        "question": "Right Brachioradialis Reflex",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      {
+        "question": "Left Brachioradialis Reflex",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      {
+        "question": "Right Patellar Reflex",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      {
+        "question": "Left Patellar Reflex",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      {
+        "question": "Right Achilles Reflex",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      {
+        "question": "Left Achilles Reflex",
+        "type": "dropdown",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      {
+        "question": "Right Plantar Reflex (Babinski)",
+        "type": "dropdown",
+        "options": ["Flexor", "Extensor", "Mute", "Withdrawal"]
+      },
+      {
+        "question": "Left Plantar Reflex (Babinski)",
+        "type": "dropdown",
+        "options": ["Flexor", "Extensor", "Mute", "Withdrawal"]
+      }
+    ]
+  },
+  {
+    "system": "CNS",
+    "exam": "Sensory System",
+    "followUps": [
+      {
+        "question": "Any findings on Pain sensation (sensory leves)",
+        "type": "text"
+      },
+      {
+        "question": "Any findings on Touch sensation (sensory leves)",
+        "type": "text"
+      },
+      {
+        "question": "Findings on temperature",
+        "type": "text"
+      },
+      {
+        "question": "Findings on  Proprioception",
+        "type": "text"
+      },
+      {
+        "question": "Findings on vibration",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "system": "CNS",
+    "exam": "Gait and Posture",
+    "followUps": [
+      {
+        "question": "Gait",
+        "type": "multi-select",
+        "options": ["Normal", "Ataxic", "Spastic", "Parkinsonian", "Shuffling"]
+      },
+      {
+        "question": "Posture",
+        "type": "multi-select",
+        "options": ["Normal", "Stooped", "Scoliosis", "Kyphosis"]
+      },
+      {
+        "question": "Romberg test",
+        "type": "dropdown",
+        "options": [
+          "Negative",
+          "Positive",
+          "Sways before",
+          "Couldnt be assessed"
+        ]
+      }
+    ]
+  }
+]
