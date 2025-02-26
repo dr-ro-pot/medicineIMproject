@@ -1,3 +1,4 @@
+
 [ {
     "symptom": "Abdominal Distention",
     "system": "Gastrointestinal",
@@ -108,7 +109,7 @@
   },
   {
     "symptom": "Alcohol Intake",
-    'Selected': true,
+    "Selected": true,
     "system": "2. Social History",
     "followUps": [
       {
@@ -1113,7 +1114,7 @@
       },
       {
         "question":
-            "Does the headache involve severe, sudden onset (e.g., 'thunderclap' headache)?",
+            "Does the headache involve severe, sudden onset (e.g., "thunderclap" headache)?",
         "type": "dropdown",
         "id": "thunderclapHeadache",
         "options": ["Yes", "No"]
@@ -1521,7 +1522,7 @@
       },
       {
         "question":
-            "Is there a family history of dementia or Alzheimer's disease?",
+            "Is there a family history of dementia or Alzheimer"s disease?",
         "type": "text",
         "id": "familyHistoryDementia"
       },
@@ -1864,7 +1865,7 @@
       },
       {
         "question":
-            "Do you have any known history of gastrointestinal disorders (e.g., irritable bowel syndrome, Crohn's disease, ulcerative colitis)?",
+            "Do you have any known history of gastrointestinal disorders (e.g., irritable bowel syndrome, Crohn"s disease, ulcerative colitis)?",
         "type": "text",
         "id": "gastrointestinalHistory"
       },
@@ -3122,7 +3123,7 @@
           "No symptoms and no limitation in ordinary physical activity I",
           "Slight limitation of physical activity, with symptoms like fatigue, palpitations, or dyspnea during ordinary physical activity II",
           "Marked limitation of physical activity, with symptoms like fatigue, palpitations, or dyspnea during less than ordinary activity III",
-          'Inability to carry on any physical activity without discomfort, with symptoms present even at rest or minimal exertion IV',
+          "Inability to carry on any physical activity without discomfort, with symptoms present even at rest or minimal exertion IV",
         ]
       },
       {
@@ -3133,7 +3134,7 @@
           "No symptoms and no limitation in ordinary physical activity I",
           "Slight limitation of physical activity, with symptoms like fatigue, palpitations, or dyspnea during ordinary physical activity II",
           "Marked limitation of physical activity, with symptoms like fatigue, palpitations, or dyspnea during less than ordinary activity III",
-          'Inability to carry on any physical activity without discomfort, with symptoms present even at rest or minimal exertion IV',
+          "Inability to carry on any physical activity without discomfort, with symptoms present even at rest or minimal exertion IV",
         ]
       },
       {
@@ -3175,8 +3176,8 @@
           "Dyspnea only with strenuous exercise 0",
           "Dyspnea when hurrying or walking up a slight hill 1",
           "Walks slower than people of the same age because of dyspnea or has to stop for breath when walking at own pace 2",
-          'Stops for breath after walking 100 yards (91 m) or after a few minutes 3',
-          'Too dyspneic to leave house or breathless when dressing 4'
+          "Stops for breath after walking 100 yards (91 m) or after a few minutes 3",
+          "Too dyspneic to leave house or breathless when dressing 4"
         ]
       },
       {
@@ -3187,8 +3188,8 @@
           "Dyspnea only with strenuous exercise 0",
           "Dyspnea when hurrying or walking up a slight hill",
           "Walks slower than people of the same age because of dyspnea or has to stop for breath when walking at own pace 2",
-          'Stops for breath after walking 100 yards (91 m) or after a few minutes 3',
-          'Too dyspneic to leave house or breathless when dressing 4'
+          "Stops for breath after walking 100 yards (91 m) or after a few minutes 3",
+          "Too dyspneic to leave house or breathless when dressing 4"
         ]
       },
       {
@@ -3658,7 +3659,7 @@
       },
       {
         "question":
-            "History of neurological conditions (e.g., Parkinson's disease, stroke):",
+            "History of neurological conditions (e.g., Parkinson"s disease, stroke):",
         "type": "dropdown",
         "id": "tremorHistory",
         "options": ["Yes", "No"]
@@ -3878,7 +3879,7 @@
   },
   {
     "symptom": "Diet",
-    'Selected': true,
+    "Selected": true,
     "system": "2. Social History",
     "followUps": [
       {
@@ -3918,7 +3919,7 @@
   },
   {
     "symptom": "Sleep",
-    'Selected': true,
+    "Selected": true,
     "system": "2. Social History",
     "followUps": [
       {
@@ -3955,7 +3956,7 @@
   {
     "symptom": "Other Personal History",
     "system": "2. Social History",
-    'Selected': true,
+    "Selected": true,
     "followUps": [
       {
         "question": "Alcohol consumption (e.g., daily, weekly, occasional):",
@@ -4795,7 +4796,7 @@
       },
       {
         "question":
-            "How does the disease affect the patient's daily life (e.g., climbing stairs, sexual difficulties)?",
+            "How does the disease affect the patient"s daily life (e.g., climbing stairs, sexual difficulties)?",
         "type": "text",
         "id": "diseaseImpact"
       },
@@ -4813,7 +4814,7 @@
     "followUps": [
       {
         "question":
-            "What is the patient's family history of dyslipidemia or premature coronary artery disease?",
+            "What is the patient"s family history of dyslipidemia or premature coronary artery disease?",
         "type": "text",
         "id": "familyHistory"
       },
@@ -4866,7 +4867,7 @@
         "options": ["Yes", "No"]
       },
       {
-        "question": "What is the patient's history of alcohol consumption?",
+        "question": "What is the patient"s history of alcohol consumption?",
         "type": "text",
         "id": "alcoholConsumption"
       },
@@ -4879,7 +4880,7 @@
       },
       {
         "question":
-            "What are the patient's current cholesterol and triglyceride levels?",
+            "What are the patient"s current cholesterol and triglyceride levels?",
         "type": "text",
         "id": "cholesterolTriglycerideLevels"
       },
@@ -4917,7 +4918,7 @@
       },
       {
         "question":
-            "How has dyslipidemia affected the patient's lifestyle or daily activities (e.g., exercise, diet)?",
+            "How has dyslipidemia affected the patient"s lifestyle or daily activities (e.g., exercise, diet)?",
         "type": "text",
         "id": "diseaseImpact"
       }
@@ -5600,13 +5601,13 @@
     "followUps": [
       {
         "question":
-            "What are the patient's symptoms? Please describe any cough, sputum production, dyspnoea, wheezing, impaired exercise tolerance, ankle oedema, and weight loss.",
+            "What are the patient"s symptoms? Please describe any cough, sputum production, dyspnoea, wheezing, impaired exercise tolerance, ankle oedema, and weight loss.",
         "type": "text",
         "id": "symptomsDescription"
       },
       {
         "question":
-            "What is the patient's Medical Research Council (MRC) dyspnoea score? (0-4)",
+            "What is the patient"s Medical Research Council (MRC) dyspnoea score? (0-4)",
         "type": "dropdown",
         "id": "MRCScore",
         "options": [
@@ -5641,7 +5642,7 @@
       },
       {
         "question":
-            "What is the patient's smoking history? How many cigarettes per day and for how long? Did the patient have exposure to passive smoke? At what age did the patient start smoking?",
+            "What is the patient"s smoking history? How many cigarettes per day and for how long? Did the patient have exposure to passive smoke? At what age did the patient start smoking?",
         "type": "text",
         "id": "smokingHistory"
       },
@@ -5660,7 +5661,7 @@
       },
       {
         "question":
-            "How has COPD impacted the patient's daily life? Are there any limitations in physical activity or difficulties with activities of daily living (ADLs)? Any financial difficulties or symptoms of depression?",
+            "How has COPD impacted the patient"s daily life? Are there any limitations in physical activity or difficulties with activities of daily living (ADLs)? Any financial difficulties or symptoms of depression?",
         "type": "text",
         "id": "impactOnLife"
       },
@@ -5702,7 +5703,7 @@
       },
       {
         "question":
-            "Please calculate the patient's Epworth sleepiness score by answering the following questions: (0 = never, 1 = slight chance, 2 = moderate chance, 3 = high chance)",
+            "Please calculate the patient"s Epworth sleepiness score by answering the following questions: (0 = never, 1 = slight chance, 2 = moderate chance, 3 = high chance)",
         "type": "multi-step",
         "id": "epworthScore",
         "steps": [
@@ -5818,7 +5819,7 @@
       },
       {
         "question":
-            "How has this chronic condition affected the patient's family and work life?",
+            "How has this chronic condition affected the patient"s family and work life?",
         "type": "text",
         "id": "familyWorkImpact"
       }
@@ -6046,7 +6047,7 @@
       },
       {
         "question":
-            "How has TB affected the patient’s life? Have they been able to work or attend school? Do family members and friends know about the diagnosis? Does the patient's occupation involve any public health risks?",
+            "How has TB affected the patient’s life? Have they been able to work or attend school? Do family members and friends know about the diagnosis? Does the patient"s occupation involve any public health risks?",
         "type": "text",
         "id": "lifeImpact"
       },
@@ -6208,7 +6209,7 @@
       },
       {
         "question":
-            "What is the reason for the patient's current hospitalization? If it is for acute gastrointestinal bleeding, what treatment has been applied? (Select all that apply)",
+            "What is the reason for the patient"s current hospitalization? If it is for acute gastrointestinal bleeding, what treatment has been applied? (Select all that apply)",
         "type": "multi-select",
         "options": [
           "Proton pump inhibitors",
@@ -6405,7 +6406,7 @@
         "question":
             "Is there a family history of inflammatory bowel disease or bowel carcinoma?",
         "type": "dropdown",
-        "options": ["Yes", "No", "Don't know"],
+        "options": ["Yes", "No", "Don"t know"],
         "id": "familyHistory"
       },
       {
@@ -6506,7 +6507,7 @@
         "question":
             "Does anyone in your family have a history of Familial Adenomatous Polyposis (FAP) or Lynch syndrome?",
         "type": "dropdown",
-        "options": ["Yes", "No", "Don't know"],
+        "options": ["Yes", "No", "Don"t know"],
         "id": "FAPOrLynchFamilyHistory"
       },
       {
@@ -6861,7 +6862,7 @@
           "No, not fully aware of INR testing",
           "Difficulties accessing INR tests",
           "No issues with INR management",
-          "Don't take warfarin"
+          "Don"t take warfarin"
         ],
         "id": "warfarinManagement"
       },
@@ -7774,7 +7775,7 @@
       },
       {
         "question":
-            "Have you been diagnosed with inflammatory bowel disease (e.g., Crohn's disease, ulcerative colitis)?",
+            "Have you been diagnosed with inflammatory bowel disease (e.g., Crohn"s disease, ulcerative colitis)?",
         "type": "dropdown",
         "options": ["Yes", "No", "Not sure"],
         "id": "inflammatoryBowelDisease"
@@ -8568,7 +8569,7 @@
     ]
   },
   {
-    "symptom": "Paget's Disease History",
+    "symptom": "Paget"s Disease History",
     "system": "Endocrinology",
     "followUps": [
       {
@@ -8689,10 +8690,10 @@
       },
       {
         "question":
-            "Have you had any recent or past treatments for Paget's disease? If so, how effective were they and what side effects did you experience?",
+            "Have you had any recent or past treatments for Paget"s disease? If so, how effective were they and what side effects did you experience?",
         "type": "multi-select",
         "options": [
-          "Treatment for Paget's disease",
+          "Treatment for Paget"s disease",
           "Effective treatment",
           "Side effects",
           "No treatment received",
@@ -9038,7 +9039,7 @@
       },
       {
         "question":
-            "Have you had episodes of ataxia, dysarthria, or tremor (Charcot's triad)?",
+            "Have you had episodes of ataxia, dysarthria, or tremor (Charcot"s triad)?",
         "type": "dropdown",
         "options": ["Yes, frequently", "Yes, occasionally", "No"],
         "id": "ataxiaDysarthriaTremor"
@@ -9079,7 +9080,7 @@
             "Have you noticed any factors that worsen your symptoms, such as heat (hot baths, etc.), infection, fever, pregnancy, or exercise?",
         "type": "multi-select",
         "options": [
-          "Heat (Uhthoff's phenomenon)",
+          "Heat (Uhthoff"s phenomenon)",
           "Infection",
           "Fever",
           "Pregnancy",
@@ -9322,7 +9323,7 @@
       },
       {
         "question":
-            "Have you had any recent events that might have precipitated the condition, such as surgery, vaccination, or other illnesses (e.g., Hodgkin's disease, SLE, HIV)?",
+            "Have you had any recent events that might have precipitated the condition, such as surgery, vaccination, or other illnesses (e.g., Hodgkin"s disease, SLE, HIV)?",
         "type": "multi-select",
         "options": [
           "Surgical operation",
@@ -10327,7 +10328,7 @@
       {
         "question": "Is there a history of Addison’s disease?",
         "type": "dropdown",
-        "options": ["Yes, Addison's disease", "No Addison's disease"],
+        "options": ["Yes, Addison"s disease", "No Addison"s disease"],
         "id": "addisonsDiseaseHistory"
       },
       {
@@ -10339,7 +10340,7 @@
       {
         "question": "Does the patient know their eGFR?",
         "type": "dropdown",
-        "options": ["Yes, knows eGFR", "No, doesn't know eGFR"],
+        "options": ["Yes, knows eGFR", "No, doesn"t know eGFR"],
         "id": "eGFRKnowledge"
       },
       {
@@ -10594,7 +10595,7 @@
   {
     "symptom": "Treatment History",
     "system": "General",
-    'Selected': true,
+    "Selected": true,
     "followUps": [
       {
         "question": "Current medications being taken:",
@@ -10629,7 +10630,7 @@
         "id": "medicationAllergies"
       },
       {
-        "question": "Patient's self-assessment of treatment progress:",
+        "question": "Patient"s self-assessment of treatment progress:",
         "type": "text",
         "id": "treatmentProgress"
       },
