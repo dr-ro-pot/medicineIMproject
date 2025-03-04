@@ -3909,7 +3909,7 @@
     "followUps": [
       {
         "question": "Diet type (e.g., vegetarian, non-vegetarian, vegan):",
-        "type": "dropdown",
+        "type": "multi-select",
         "id": "dietType",
         "options": ["Vegetarian", "Non-vegetarian", "Vegan", "Omnivore"]
       },
@@ -3954,13 +3954,13 @@
       },
       {
         "question": "Sleep quality (e.g., restful, disturbed):",
-        "type": "dropdown",
+        "type": "multi-select",
         "id": "sleepQuality",
         "options": ["Restful", "Disturbed", "Poor"]
       },
       {
         "question": "History of sleep disorders (e.g., insomnia, sleep apnea):",
-        "type": "dropdown",
+        "type": "multi-select",
         "id": "sleepDisorders",
         "options": ["Yes", "No"]
       },
