@@ -11165,11 +11165,11 @@
       },
             {
         "question": "UGI endoscopy when and findings if done",
-        "type": "text",
+        "type": "text"
       },
                     {
         "question": "USG A+P when and findings if done",
-        "type": "text",
+        "type": "text"
       }
     ]
   }
