@@ -10734,7 +10734,7 @@
       "id": "smoking_duration"
     },
     {
-      "question": "If smoked, how many packs per day?",
+      "question": "If smoked, how many sticks per day?",
       "type": "text",
       "id": "smoking_packs_per_day"
     },
