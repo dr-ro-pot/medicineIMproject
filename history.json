@@ -11227,6 +11227,132 @@
                     }
     ]
   }
+,
+    {
+  "symptom": "Acute Pancreatitis",
+  "system": "Specific History Quick",
+  "followUps": [
+    {
+      "question": "Location of pain",
+      "type": "multi-select",
+      "options": [
+        "Mid-epigastric",
+        "Left upper quadrant",
+        "Mid-back"
+      ],
+      "id": "pain_location"
+    },
+    {
+      "question": "Onset of pain",
+      "type": "multi-select",
+      "options": [
+        "Sudden",
+        "Gradual",
+        "Constant",
+        "Intermittent"
+      ],
+      "id": "pain_onset"
+    },
+    {
+      "question": "Character of pain",
+      "type": "multi-select",
+      "options": [
+        "Dull",
+        "Boring",
+        "Sharp",
+        "Crampy",
+        "Colicky"
+      ],
+      "id": "pain_character"
+    },
+    {
+      "question": "Radiation of pain",
+      "type": "multi-select",
+      "options": [
+        "To the back",
+        "To the chest",
+        "To the sides",
+        "No radiation"
+      ],
+      "id": "pain_radiation"
+    },
+    {
+      "question": "Associated symptoms (nausea, vomiting, fever, jaundice, anorexia, dyspnea)",
+      "type": "multi-select",
+      "options": [
+        "Nausea",
+        "Vomiting",
+        "Low-grade fever",
+        "Rigors",
+        "Jaundice",
+        "Anorexia",
+        "Dyspnea"
+      ],
+      "id": "associated_symptoms"
+    },
+    {
+      "question": "Exacerbating factors for pain (supine position)",
+      "type": "text",
+      "id": "pain_exacerbation"
+    },
+    {
+      "question": "Relieving factors for pain (sitting with knees drawn up)",
+      "type": "text",
+      "id": "pain_relief"
+    },
+    {
+      "question": "Have you experienced any of the following precipitating factors for pancreatitis?",
+      "type": "multi-select",
+      "options": [
+        "Alcohol",
+        "Gallstones",
+        "Trauma",
+        "Postoperative pancreatitis",
+        "Retrograde cholangiopancreatography",
+        "Hypertriglyceridemia",
+        "Hypercalcemia",
+        "Renal failure",
+        "Coxsackie virus or mumps infection",
+        "Mycoplasma infection",
+        "Lupus",
+        "Vasculitis",
+        "Penetration of peptic ulcer",
+        "Scorpion stings",
+        "Tumor"
+      ],
+      "id": "precipitating_factors"
+    },
+    {
+      "question": "Have you taken any medications associated with pancreatitis?",
+      "type": "multi-select",
+      "options": [
+        "Sulfonamides",
+        "Thiazides",
+        "Dideoxyinosine (DDI)",
+        "Furosemide",
+        "Tetracycline",
+        "Estrogen",
+        "Azathioprine",
+        "Valproate",
+        "Pentamidine"
+      ],
+      "id": "medications_associated"
+    },
+    {
+      "question": "Alcohol consuption?",
+      "type": "dropdown",
+      "options": ["Former", "Never","Current"],
+      "id": "elevated_amylase"
+    }   , {
+      "question": "If current or former Alcohol consuption how much how long?",
+      "type": "text",
+      "id": "elevated_amylase"
+    }, {
+      "question": "If current last drink, type, volume?",
+      "type": "text",      "id": "elevated_amylase"
+    }
+  ]
+}
 
 
 
