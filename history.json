@@ -10647,6 +10647,10 @@
       "question": "Duration of shortness of breath",
       "type": "text",
       "id": "sob_duration"
+    },    {
+      "question": "increased of shortness of breath since how many days?",
+      "type": "text",
+      "id": "sob_duration"
     },
     {
       "question": "Triggers for shortness of breath",
@@ -10678,7 +10682,7 @@
 },
     {
       "question": "Frequency of exacerbations in the past year",
-      "type": "dropdown",
+      "type": "text",
       "options": ["None", "1-2", "3-5", "More than 5"],
       "id": "exacerbation_frequency"
     },
