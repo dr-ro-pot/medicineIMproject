@@ -10917,6 +10917,12 @@
     "type": "text",
     "options": ["Yes", "No"],
     "id": "family_history_copd"
+  },
+                          {
+    "question": "Negative histories?",
+    "type": "multi-select",
+    "options": ["Past History of TB", "Fever","Orthopnea","PND","Chest Pain", "Palpitations","Syncope"],
+    "id": "family_history_copd"
   }
   ]
 }
