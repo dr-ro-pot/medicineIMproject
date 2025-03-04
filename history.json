@@ -10653,7 +10653,29 @@
       "type": "multi-select",
       "options": ["Exercise", "Cold air", "Smoke exposure", "Pollution", "Strong odors", "None"],
       "id": "sob_triggers"
-    },
+    },{
+  "question": "mMRC Dyspnea Scale before onset of symptoms",
+  "type": "dropdown",
+  "options": [
+    "0 - Only breathless with strenuous exercise",
+    "1 - Short of breath when hurrying on level ground or walking up a slight hill",
+    "2 - Walks slower than people of the same age due to breathlessness or has to stop for breath when walking at own pace",
+    "3 - Stops for breath after walking 100 yards (91 meters) or after a few minutes on level ground",
+    "4 - Too breathless to leave the house or breathless when dressing/undressing"
+  ],
+  "id": "mmrc_before_symptoms"
+},{
+  "question": "mMRC Dyspnea Scale current symptoms",
+  "type": "dropdown",
+  "options": [
+    "0 - Only breathless with strenuous exercise",
+    "1 - Short of breath when hurrying on level ground or walking up a slight hill",
+    "2 - Walks slower than people of the same age due to breathlessness or has to stop for breath when walking at own pace",
+    "3 - Stops for breath after walking 100 yards (91 meters) or after a few minutes on level ground",
+    "4 - Too breathless to leave the house or breathless when dressing/undressing"
+  ],
+  "id": "mmrc_before_symptoms"
+},
     {
       "question": "Frequency of exacerbations in the past year",
       "type": "dropdown",
@@ -10676,6 +10698,9 @@
       "type": "dropdown",
       "options": ["Yes", "No"],
       "id": "cough_productive"
+    },    {
+      "question": "Any recent change in cough?",
+      "type": "text"
     },
     {
       "question": "If productive, what is the color of the sputum?",
