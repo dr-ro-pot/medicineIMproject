@@ -82,7 +82,7 @@
       },
       {
         "question": "Location of pain:",
-        "type": "dropdown",
+        "type": "multi-select",
         "id": "painLocation",
         "options": [
           "Epigastric",
@@ -111,6 +111,12 @@
     "Selected": true,
     "system": "2. Social History",
     "followUps": [
+           {
+        "question": "History of alcohol use?",
+        "type": "dropdown",
+               "options": ["Current","Former","Never"],
+        "id": "alcoholFrequency"
+      },
       {
         "question": "Frequency of alcohol consumption (e.g., daily, weekly):",
         "type": "text",
@@ -125,12 +131,25 @@
         "question": "Duration of alcohol use (e.g., years):",
         "type": "text",
         "id": "alcoholDuration"
+      },     {
+        "question": "Last drink and Type of drink",
+        "type": "text",
+        "id": "alcoholDuration"
+      },  {
+        "question": "If former when and how long have they left alcohol",
+        "type": "text",
+        "id": "alcoholDuration"
       },
       {
-        "question":
-            "Associated complications (e.g., liver disease, withdrawal symptoms):",
-        "type": "text",
-        "id": "alcoholComplications"
+        "question":"CAGE:",
+              "options": [
+        "Cut down on drinking",
+        "Annoyed by criticism of drinking",
+        "Guilty about drinking",
+        "Eye opener"
+              ],
+        "type": "multi-select",
+        "id": "alcoholCAGE"
       }
     ]
   },
@@ -139,6 +158,13 @@
     "Selected": true,
     "system": "2. Social History",
     "followUps": [
+             {
+        "question":
+            "Type?",
+        "type": "dropdown",
+        "id": "cessationAids",
+        "options": ["Never", "Former","Current"]
+      },
       {
         "question": "Frequency of smoking (e.g., daily, weekly):",
         "type": "text",
@@ -154,16 +180,16 @@
         "type": "text",
         "id": "smokingDuration"
       },
+          {
+        "question": "If former left when and why?",
+        "type": "text",
+        "id": "smokingDuration"
+      },
       {
         "question":
             "Have they attempted to quit smoking? If yes, how many times?",
         "type": "text",
         "id": "quitAttempts"
-      },
-      {
-        "question": "Associated complications (e.g., COPD, lung cancer):",
-        "type": "text",
-        "id": "smokingComplications"
       },
       {
         "question":
