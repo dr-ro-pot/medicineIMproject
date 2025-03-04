@@ -16,7 +16,7 @@
       {
         "question": "Painful or painless?",
         "type": "multi-select",
-          "options": ["Painful", "Painless"]
+          "options": ["Painful", "Painless"],
         "id": "distentionAssociated"
       },
       {
