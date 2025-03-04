@@ -10640,8 +10640,8 @@
       }
     ]
   },
-        "symptom": "Breast Cancer",
-    "system": "Oncology",
+        "symptom": "AE COPD",
+    "system": "Specific History Quick",
     "followUps": [
       {
         "question":
