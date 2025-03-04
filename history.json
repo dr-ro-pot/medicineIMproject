@@ -10639,7 +10639,7 @@
         "id": "patientInvolvement"
       }
     ]
-  },
+  },{
         "symptom": "AE COPD",
     "system": "Specific History Quick",
     "followUps": [
@@ -10648,7 +10648,7 @@
             "When and how was the diagnosis made? Was it through breast self-examination or routine screening?",
         "type": "text",
         "id": "diagnosisMethod"
-      },]}
+      }]}
 
 
 
