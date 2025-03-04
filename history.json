@@ -10724,6 +10724,10 @@
       "question": "If smoked, for how many years?",
       "type": "text",
       "id": "smoking_duration"
+    },    {
+      "question": "If former smoker, left how many years back and why?",
+      "type": "text",
+      "id": "smoking_duration"
     },
     {
       "question": "If smoked, how many packs per day?",
@@ -10732,7 +10736,7 @@
     },
     {
       "question": "Have you ever been hospitalized due to COPD?",
-      "type": "dropdown",
+      "type": "text",
       "options": ["Yes", "No"],
       "id": "copd_hospitalization"
     },
@@ -10817,7 +10821,69 @@
       "type": "dropdown",
       "options": ["0 - A lot of energy", "1", "2", "3", "4 - No energy at all"],
       "id": "cat_energy"
-    }
+    },{
+    "question": "Are you exposed to secondhand smoke?",
+    "type": "dropdown",
+    "options": ["Yes", "No"],
+    "id": "passive_smoke_exposure"
+  },
+  {
+    "question": "Do you have exposure to dust, fumes, or chemicals at work?",
+    "type": "dropdown",
+    "options": ["Yes", "No"],
+    "id": "occupational_exposure"
+  },
+  {
+    "question": "If yes, what type of exposure?",
+    "type": "multi-select",
+    "options": ["Dust", "Fumes", "Chemical vapors", "Other"],
+    "id": "exposure_type"
+  },
+  {
+    "question": "Do you live in an area with high air pollution?",
+    "type": "dropdown",
+    "options": ["Yes", "No"],
+    "id": "air_pollution_exposure"
+  },  {
+    "question": "Do you have exposure to indoor smoke? how long and why?",
+    "type": "text",
+    "options": ["Yes", "No"],
+    "id": "air_pollution_exposure"
+  },
+  {
+    "question": "Did you have frequent respiratory infections as a child?",
+    "type": "dropdown",
+    "options": ["Yes", "No"],
+    "id": "childhood_respiratory_infections"
+  },
+  {
+    "question": "Has a doctor ever diagnosed you with alpha-1 antitrypsin deficiency?",
+    "type": "dropdown",
+    "options": ["Yes", "No", "Not tested"],
+    "id": "alpha1_antitrypsin_deficiency"
+  },
+  {
+    "question": "Do you have a family history of COPD?",
+    "type": "text",
+    "options": ["Yes", "No"],
+    "id": "family_history_copd"
+  },
+        {
+    "question": "Pneumococcal vaccination Yes/No, if yes when?",
+    "type": "text",
+    "options": ["Yes", "No"],
+    "id": "family_history_copd"
+  },        {
+    "question": "Influenza vaccination Yes/No, if yes when?",
+    "type": "text",
+    "options": ["Yes", "No"],
+    "id": "family_history_copd"
+  },        {
+    "question": "Covid vaccination Yes/No, if yes when?",
+    "type": "text",
+    "options": ["Yes", "No"],
+    "id": "family_history_copd"
+  }
   ]
 }
   
