@@ -10883,6 +10883,36 @@
     "type": "text",
     "options": ["Yes", "No"],
     "id": "family_history_copd"
+  },
+        {
+    "question": "Document Review: PFT",
+    "type": "text",
+    "options": ["Yes", "No"],
+    "id": "family_history_copd"
+  },
+              {
+    "question": "Document Review: Echo",
+    "type": "text",
+    "options": ["Yes", "No"],
+    "id": "family_history_copd"
+  },
+              {
+    "question": "Swelling of legs?",
+    "type": "text",
+    "options": ["Yes", "No"],
+    "id": "family_history_copd"
+  },
+                    {
+    "question": "Increased sleepiness/drowsiness?",
+    "type": "text",
+    "options": ["Yes", "No"],
+    "id": "family_history_copd"
+  },
+                    {
+    "question": "Altered sensorium?",
+    "type": "text",
+    "options": ["Yes", "No"],
+    "id": "family_history_copd"
   }
   ]
 }
