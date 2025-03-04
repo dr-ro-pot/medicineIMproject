@@ -10642,13 +10642,151 @@
   },{
         "symptom": "AE COPD",
     "system": "Specific History Quick",
-    "followUps": [
-      {
-        "question":
-            "When and how was the diagnosis made? Was it through breast self-examination or routine screening?",
-        "type": "text",
-        "id": "diagnosisMethod"
-      }]}
+  "followUps": [
+    {
+      "question": "Duration of shortness of breath",
+      "type": "text",
+      "id": "sob_duration"
+    },
+    {
+      "question": "Triggers for shortness of breath",
+      "type": "multi-select",
+      "options": ["Exercise", "Cold air", "Smoke exposure", "Pollution", "Strong odors", "None"],
+      "id": "sob_triggers"
+    },
+    {
+      "question": "Frequency of exacerbations in the past year",
+      "type": "dropdown",
+      "options": ["None", "1-2", "3-5", "More than 5"],
+      "id": "exacerbation_frequency"
+    },
+    {
+      "question": "Do you have a chronic cough?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "chronic_cough"
+    },
+    {
+      "question": "If yes, how long have you had a chronic cough?",
+      "type": "text",
+      "id": "cough_duration"
+    },
+    {
+      "question": "Is your cough productive?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "cough_productive"
+    },
+    {
+      "question": "If productive, what is the color of the sputum?",
+      "type": "multi-select",
+      "options": ["White", "Yellow", "Green", "Brown", "Blood-streaked"],
+      "id": "sputum_color"
+    },
+    {
+      "question": "Do you experience wheezing?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "wheezing"
+    },
+    {
+      "question": "Do you have a history of smoking?",
+      "type": "dropdown",
+      "options": ["Never smoked", "Former smoker", "Current smoker"],
+      "id": "smoking_history"
+    },
+    {
+      "question": "If smoked, for how many years?",
+      "type": "text",
+      "id": "smoking_duration"
+    },
+    {
+      "question": "If smoked, how many packs per day?",
+      "type": "text",
+      "id": "smoking_packs_per_day"
+    },
+    {
+      "question": "Have you ever been hospitalized due to COPD?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "copd_hospitalization"
+    },
+    {
+      "question": "Do you use oxygen therapy?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "oxygen_therapy"
+    },
+    {
+      "question": "Do you use inhalers for COPD?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "inhaler_use"
+    },
+    {
+      "question": "Which inhalers do you use?",
+      "type": "multi-select",
+      "options": ["Short-acting beta agonist (SABA)", "Long-acting beta agonist (LABA)", "Short-acting muscarinic antagonist (SAMA)", "Long-acting muscarinic antagonist (LAMA)", "Inhaled corticosteroids (ICS)", "Combination inhalers"],
+      "id": "inhaler_types"
+    },
+    {
+      "question": "Do you experience fatigue or reduced exercise tolerance?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "fatigue"
+    },
+    {
+      "question": "CAT Score: I never cough",
+      "type": "dropdown",
+      "options": ["0 - Never", "1", "2", "3", "4 - All the time"],
+      "id": "cat_cough"
+    },
+    {
+      "question": "CAT Score: I have no phlegm (mucus) in my chest",
+      "type": "dropdown",
+      "options": ["0 - None", "1", "2", "3", "4 - A lot"],
+      "id": "cat_phlegm"
+    },
+    {
+      "question": "CAT Score: My chest does not feel tight at all",
+      "type": "dropdown",
+      "options": ["0 - Not at all", "1", "2", "3", "4 - Very tight"],
+      "id": "cat_chest_tightness"
+    },
+    {
+      "question": "CAT Score: When I walk up a hill or one flight of stairs, I am not breathless",
+      "type": "dropdown",
+      "options": ["0 - Not breathless", "1", "2", "3", "4 - Very breathless"],
+      "id": "cat_breathlessness"
+    },
+    {
+      "question": "CAT Score: I am not limited doing any activities at home",
+      "type": "dropdown",
+      "options": ["0 - Not limited", "1", "2", "3", "4 - Very limited"],
+      "id": "cat_activity_limitation"
+    },
+    {
+      "question": "CAT Score: I am confident leaving my home despite my lung condition",
+      "type": "dropdown",
+      "options": ["0 - Very confident", "1", "2", "3", "4 - Not at all confident"],
+      "id": "cat_confidence"
+    },
+    {
+      "question": "CAT Score: I sleep soundly",
+      "type": "dropdown",
+      "options": ["0 - Sleep well", "1", "2", "3", "4 - Sleep poorly"],
+      "id": "cat_sleep"
+    },
+    {
+      "question": "CAT Score: I have lots of energy",
+      "type": "dropdown",
+      "options": ["0 - A lot of energy", "1", "2", "3", "4 - No energy at all"],
+      "id": "cat_energy"
+    }
+  ]
+}
+  
+  }
 
 
 
