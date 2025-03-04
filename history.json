@@ -10728,7 +10728,8 @@
       "type": "multi-select",
       "options": ["R/C Seroflo 250mcg BD", "R/C Seroflo 250mcg OH", "R/C Tiova 18mcg HS", "R/C Duova(Tiotropium+ Formeterol) 18/12mcg OD", "R/C Duova(Tiotropium+ Formeterol) 9/6mcg BD", "R/C Foracort (400+6mcg) BD","R/C Foracort (200/6) BD"],
       "id": "inhaler_types"
-    },   {
+    },
+      {
       "question": "Inhalers if any modifications in above selections",
       "type": "text",
     },
