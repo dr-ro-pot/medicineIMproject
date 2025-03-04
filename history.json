@@ -108,7 +108,7 @@
           "Meals",
           "Coughing",
           "Straining",
-          "None",
+          "None"
         ],
         "id": "painSeverity"
       },
