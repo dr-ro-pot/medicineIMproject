@@ -14,14 +14,10 @@
         "options": ["Sudden", "Gradual"]
       },
       {
-        "question": "Associated symptoms (e.g., pain, vomiting):",
-        "type": "text",
+        "question": "Painful or painless?",
+        "type": "multi-select",
+          "options": ["Painful", "Painless"]
         "id": "distentionAssociated"
-      },
-      {
-        "question": "History of bowel habits (e.g., constipation, diarrhea):",
-        "type": "text",
-        "id": "distentionBowelHabits"
       },
       {
         "question": "Presence of any mass or lump:",
@@ -99,11 +95,32 @@
         "type": "text",
         "id": "painSeverity"
       },
-      {
-        "question": "Associated symptoms (e.g., nausea, vomiting):",
+              {
+        "question": "Radiation?",
         "type": "text",
-        "id": "painAssociated"
-      }
+        "id": "painSeverity"
+      },
+              {
+        "question": "Aggravating?",
+        "type": "multi-select",
+        "id": "painLocation",
+        "options": [
+          "Meals",
+          "Coughing",
+          "Straining",
+          "None",
+        ]
+        "id": "painSeverity"
+      },
+              {
+        "question": "Relieving",
+        "type": "text",
+        "id": "painSeverity"
+      },         {
+        "question": "Timing?",
+        "type": "text",
+        "id": "painSeverity"
+      },
     ]
   },
   {
