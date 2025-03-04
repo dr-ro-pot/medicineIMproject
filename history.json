@@ -10639,4 +10639,21 @@
         "id": "patientInvolvement"
       }
     ]
-  }]
+  },
+        "symptom": "Breast Cancer",
+    "system": "Oncology",
+    "followUps": [
+      {
+        "question":
+            "When and how was the diagnosis made? Was it through breast self-examination or routine screening?",
+        "type": "text",
+        "id": "diagnosisMethod"
+      },]}
+
+
+
+
+
+
+
+]
