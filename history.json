@@ -10927,7 +10927,252 @@
   ]
 }
   
-  
+  ,{
+    "symptom": "Decompensated Chronic Liver Disease",
+    "system": "Specific History Quick",
+    "followUps": [
+      {
+        "question": "Duration of jaundice",
+        "type": "text",
+        "id": "jaundice_duration"
+      },
+      {
+        "question": "Have you experienced any recent weight loss?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "weight_loss"
+      },
+      {
+        "question": "If yes, how much weight have you lost?",
+        "type": "text",
+        "id": "weight_loss_amount"
+      },
+      {
+        "question": "Abdominal swelling?",
+        "type": "multi-select",
+        "options": ["Gradual,Painless, progressive swelling", "No swelling", "Painful swelling", "associated with swelling of b/l lower limbs"],
+        "id": "abdominal_swelling"
+      },
+      {
+        "question": "Duration of abdominal swelling",
+        "type": "text",
+        "id": "abdominal_swelling"
+      },
+      {
+        "question": "Do you have a history of ascites?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "ascites_history"
+      },
+      {
+        "question": "If yes, how often have you experienced ascites?",
+        "type": "text",
+        "id": "ascites_frequency"
+      },
+      {
+        "question": "Have you had any recent episodes of gi bleeding (e.g., vomiting blood, nosebleeds)?",
+        "type": "multi-select",
+        "options": ["Black tarry stools", "Frank blood in stool","Bloody vomitus","coffee ground vomitus"],
+        "id": "bleeding_episodes"
+      },
+      {
+        "question": "If yes, how many days such episodes of gi bleed?",
+        "type": "text",
+        "id": "bleeding_details"
+      },      {
+        "question": "If yes, volume and frequency of gi bleed?",
+        "type": "text",
+        "id": "bleeding_details"
+      },
+      {
+        "question": "If yes, when was last episode of gi bleed?",
+        "type": "text",
+        "id": "bleeding_details"
+      },
+      {
+        "question": "Do you experience fatigue or weakness?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "fatigue_weakness"
+      },
+      {
+        "question": "Have you noticed any changes in your urine (e.g., dark-colored urine)?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "urine_changes"
+      },
+      {
+        "question": "Do you experience itching?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "itching"
+      },
+      {
+        "question": "Do you have a history of hepatic encephalopathy?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "hepatic_encphalopathy_history"
+      },    {
+        "question": "Do you experience confusion or altered mental status?",
+        "type": "text",
+        "id": "confusion_mental_status"
+      },{
+        "question": "Have you experienced any recent changes in mental status?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "mental_status_change"
+      },
+      {
+        "question": "If yes, describe the changes in mental status",
+        "type": "text",
+        "id": "mental_status_change_details"
+      },
+      {
+        "question": "Have you had confusion or difficulty concentrating?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "confusion_or_concentration"
+      },
+      {
+        "question": "Have you noticed any changes in your sleep pattern (e.g., insomnia or excessive sleepiness)?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "sleep_pattern_change"
+      },
+      {
+        "question": "Have you experienced any changes in your behavior (e.g., irritability or aggressiveness)?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "behavior_change"
+      },
+      {
+        "question": "Do you experience any hand tremors or flapping tremors?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "tremors"
+      },
+      {
+        "question": "Have you noticed a decrease in your ability to perform daily activities?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "daily_activity_decrease"
+      },
+      {
+        "question": "Do you have difficulty remembering recent events?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "memory_difficulty"
+      },
+      {
+        "question": "Do you have a history of variceal bleeding?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "variceal_bleeding_history"
+      },
+      {
+        "question": "Have you been diagnosed with cirrhosis?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "cirrhosis_diagnosis"
+      },
+      {
+        "question": "If yes, how long have you been diagnosed with cirrhosis?",
+        "type": "text",
+        "id": "cirrhosis_duration"
+      },
+      {
+        "question": "Do you have a history of alcohol use?",
+        "type": "dropdown",
+        "options": ["Never", "Former", "Current"],
+        "id": "alcohol_use_history"
+      },
+      {
+        "question": "If current or former, how many years did you drink?",
+        "type": "text",
+        "id": "alcohol_years"
+      },
+      {
+        "question": "If current, how many drinks do you have per day?",
+        "type": "text",
+        "id": "alcohol_intake_per_day"
+      },
+      {
+        "question": "Do you have a history of viral hepatitis (e.g., Hepatitis B or C)?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "viral_hepatitis_history"
+      },
+      {
+        "question": "Have you ever undergone liver transplantation?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "liver_transplantation_history"
+      },
+      {
+        "question": "Do you have a family history of liver disease?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "family_history_liver_disease"
+      },
+      {
+        "question": "Do you experience frequent bruising or easy bleeding?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "bruising_bleeding"
+      },
+      {
+        "question": "Have you had a recent abdominal ultrasound or CT scan?",
+        "type": "text",
+        "options": ["Yes", "No"],
+        "id": "abdominal_imaging"
+      },
+      {
+        "question": "Dose of Lasilactone(20/50mg)",
+        "type": "text",
+        "id": "diuretic_types"
+      },
+      {
+        "question": "Dose of Propanolol",
+        "type": "text",
+        "id": "diuretic_types"
+      },   {
+        "question": "Dose of Lactulose",
+        "type": "text",
+        "id": "diuretic_types"
+      },   
+      {
+        "question": "Dose of Rifaximine",
+        "type": "multi-select",
+        "options": ["None", "550mg BD"],
+        "id": "diuretic_types"
+      },
+      {
+        "question": "Other medications:",
+        "type": "text",
+        "id": "diuretic_types"
+      }, 
+      {
+        "question": "Have you been hospitalized due to liver disease?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "liver_disease_hospitalization"
+      },
+      {
+        "question": "Do you have any history of ascitic fluid infection (spontaneous bacterial peritonitis)?",
+        "type": "dropdown",
+        "options": ["Yes", "No"],
+        "id": "ascitic_fluid_infection_history"
+      },
+            {
+        "question": "UGI endoscopy when and findings if done",
+        "type": "text",
+      },
+                    {
+        "question": "USG A+P when and findings if done",
+        "type": "text",
+      }
+    ]
+  }
 
 
 
