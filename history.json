@@ -10731,7 +10731,7 @@
     },
       {
       "question": "Inhalers if any modifications in above selections",
-      "type": "text",
+      "type": "text"
     },
     {
       "question": "Do you experience fatigue or reduced exercise tolerance?",
