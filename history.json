@@ -10970,7 +10970,7 @@
         "id": "ascites_frequency"
       },
       {
-        "question": "Have you had any recent episodes of gi bleeding (e.g., vomiting blood, nosebleeds)?",
+        "question": "Have you had any recent episodes of gi bleeding ?",
         "type": "multi-select",
         "options": ["Black tarry stools", "Frank blood in stool","Bloody vomitus","coffee ground vomitus"],
         "id": "bleeding_episodes"
@@ -11166,6 +11166,56 @@
         "type": "dropdown",
         "options": ["Yes", "No"],
         "id": "ascitic_fluid_infection_history"
+      },{
+      "question": "What are the possible precipitating factors for encephalopathy that apply to you?",
+      "type": "multi-select",
+      "options": [
+        "Gastrointestinal bleeding",
+        "High protein intake",
+        "Constipation",
+        "Azotemia",
+        "CNS depressants","Other"
+      ],
+      "id": "precipitating_factors"
+    },{
+        "question": "If any other precipitants of HE describe",
+        "type": "text"
+      },
+    {
+      "question": "Any drugs that may cause hepatotoxicity?",
+      "type": "multi-select",
+      "options": [
+        "Acetaminophen",
+        "Isoniazid",
+        "Nitrofurantoin",
+        "Methotrexate",
+        "Sulfonamides",
+        "NSAIDs",
+        "Phenytoin", 
+          "Alternative medicine"
+      ],
+      "id": "hepatotoxic_medications"
+    },   {
+        "question": "If any drug, describe dose and duration and indications",
+        "type": "text"
+      }, {
+        "question": "If any Blood transfusion when and why",
+        "type": "text"
+      }, {
+        "question": "If any IV Drug abuse when what ",
+        "type": "text"
+      }, {
+        "question": "If any unsafe sex when",
+        "type": "text"
+      }, {
+        "question": "If any  Diabetes",
+        "type": "text"
+      }, {
+        "question": "If any skin pigmentation",
+        "type": "text"
+      }, {
+        "question": "If any movement disorders",
+        "type": "text"
       },
             {
         "question": "UGI endoscopy when and findings if done",
@@ -11174,7 +11224,7 @@
                     {
         "question": "USG A+P when and findings if done",
         "type": "text"
-      }
+                    }
     ]
   }
 
