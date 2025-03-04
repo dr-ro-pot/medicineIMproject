@@ -11095,6 +11095,10 @@
         "question": "If current, how many drinks do you have per day?",
         "type": "text",
         "id": "alcohol_intake_per_day"
+      },      {
+        "question": "If current, last drink? type, amount and time",
+        "type": "text",
+        "id": "alcohol_intake_per_day"
       },
       {
         "question": "Do you have a history of viral hepatitis (e.g., Hepatitis B or C)?",
