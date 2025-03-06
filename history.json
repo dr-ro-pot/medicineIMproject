@@ -11767,6 +11767,740 @@
     }
   ]
 }
+,{
+  "symptom": "Diabetic Ketoacidosis (DKA) / Hyperosmolar Hyperglycemic State (HHS)",
+  "system": "Specific History Quick",
+  "followUps": [
+    {
+      "question": "What are the presenting symptoms?",
+      "type": "multi-select",
+      "options": ["Polyuria", "Polydipsia", "Fatigue", "Nausea/Vomiting", "Abdominal pain", "Altered mental status", "Tachypnea/Kussmaul breathing", "Fruity breath odor", "Weakness", "None"],
+      "id": "presenting_symptoms"
+    },
+    {
+      "question": "What is the duration of symptoms?",
+      "type": "dropdown",
+      "options": ["<24 hours", "1-3 days", "More than 3 days"],
+      "id": "symptom_duration"
+    },
+    {
+      "question": "What is the recent blood glucose level (if known)?",
+      "type": "text",
+      "id": "blood_glucose"
+    },
+    {
+      "question": "Has there been a recent infection?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_infection"
+    },
+    {
+      "question": "Have you had a recent illness, trauma, or surgery?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_illness_trauma_surgery"
+    },
+    {
+      "question": "Are you currently on insulin or oral antidiabetic medications?",
+      "type": "multi-select",
+      "options": ["Insulin", "Metformin", "Sulfonylureas", "DPP-4 inhibitors", "SGLT2 inhibitors", "None"],
+      "id": "diabetes_medications"
+    },
+    {
+      "question": "Have you recently missed or altered your insulin dose?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "missed_insulin_dose"
+    },
+    {
+      "question": "Have you had excessive alcohol intake or drug use?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "alcohol_drug_use"
+    },
+    {
+      "question": "Have you been experiencing dehydration symptoms such as dry mouth, dizziness, or low urine output?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "dehydration_symptoms"
+    },
+    {
+      "question": "Have you had previous episodes of DKA or HHS?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "previous_dka_hhs"
+    },
+    {
+      "question": "What is the suspected trigger of the DKA/HHS?",
+      "type": "multi-select",
+      "options": ["Infection", "Noncompliance with insulin", "New-onset diabetes", "Myocardial infarction", "Pancreatitis", "Medications (e.g., steroids, diuretics, antipsychotics)", "Substance use", "Other", "Unknown"],
+      "id": "dka_hhs_trigger"
+    },
+    {
+      "question": "Do you have any underlying risk factors for DKA/HHS?",
+      "type": "multi-select",
+      "options": ["Type 1 Diabetes", "Type 2 Diabetes", "Chronic kidney disease", "Corticosteroid use", "Poor medication adherence", "History of recurrent DKA/HHS", "Pregnancy", "Other"],
+      "id": "dka_hhs_risk_factors"
+    }
+  ]
+}
+,{
+  "symptom": "Acute Kidney Injury (AKI)",
+  "system": "Specific History Quick",
+  "followUps": [
+    {
+      "question": "What are the presenting symptoms?",
+      "type": "multi-select",
+      "options": ["Oliguria", "Anuria", "Edema", "Fatigue", "Nausea/Vomiting", "Shortness of breath", "Confusion", "Painful urination", "Hematuria", "None"],
+      "id": "presenting_symptoms"
+    },
+    {
+      "question": "What is the duration of symptoms?",
+      "type": "dropdown",
+      "options": ["<24 hours", "1-3 days", "More than 3 days"],
+      "id": "symptom_duration"
+    },
+    {
+      "question": "What is the most recent serum creatinine level (if known)?",
+      "type": "text",
+      "id": "serum_creatinine"
+    },
+    {
+      "question": "Have you experienced recent fever or infection?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_infection"
+    },
+    {
+      "question": "Have you had recent illness, trauma, or surgery?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_illness_trauma_surgery"
+    },
+    {
+      "question": "Have you been taking any nephrotoxic medications or contrast agents?",
+      "type": "multi-select",
+      "options": ["ACE inhibitors", "ARBs", "Diuretics", "NSAIDs", "Antibiotics", "Radiocontrast", "Other", "None"],
+      "id": "nephrotoxic_medications"
+    },
+    {
+      "question": "Have you had any recent episodes of hypotension or shock?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "hypotension_shock"
+    },
+    {
+      "question": "Have you been exposed to any toxins or have a history of substance abuse?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "toxins_substance_abuse"
+    },
+    {
+      "question": "Do you have any known chronic kidney disease (CKD) or other renal disorders?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "known_ckd"
+    },
+    {
+      "question": "Have you had any recent urinary tract infections or other urinary symptoms?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "uti_symptoms"
+    },
+    {
+      "question": "Have you had recent cardiovascular events such as a heart attack or heart failure?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "cardiovascular_events"
+    },
+    {
+      "question": "Have you experienced significant fluid loss (e.g., vomiting, diarrhea, excessive sweating)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "fluid_loss"
+    },
+    {
+      "question": "What is the suspected cause of AKI?",
+      "type": "multi-select",
+      "options": ["Prerenal (e.g., dehydration, shock)", "Intrinsic (e.g., glomerulonephritis, ATN)", "Postrenal (e.g., obstruction)", "Medications", "Infection", "Other", "Unknown"],
+      "id": "aki_cause"
+    },
+    {
+      "question": "Do you have any underlying risk factors for AKI?",
+      "type": "multi-select",
+      "options": ["Chronic kidney disease", "Diabetes", "Hypertension", "Cardiovascular disease", "Advanced age", "Sepsis", "Dehydration", "Obesity", "Other"],
+      "id": "aki_risk_factors"
+    }
+  ]
+},{
+  "symptom": "New-Onset Hypertension (HTN)",
+  "system": "Specific History Quick",
+  "followUps": [
+    {
+      "question": "What are the presenting symptoms?",
+      "type": "multi-select",
+      "options": ["Headache", "Dizziness", "Blurred vision", "Chest pain", "Shortness of breath", "Palpitations", "Fatigue", "None"],
+      "id": "presenting_symptoms"
+    },
+    {
+      "question": "What is the duration of symptoms?",
+      "type": "dropdown",
+      "options": ["<1 week", "1-4 weeks", "More than 1 month"],
+      "id": "symptom_duration"
+    },
+    {
+      "question": "What is the most recent blood pressure reading (if known)?",
+      "type": "text",
+      "id": "blood_pressure"
+    },
+    {
+      "question": "Have you had any previous history of elevated blood pressure or HTN?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "previous_htn_history"
+    },
+    {
+      "question": "Do you have any known comorbidities (e.g., diabetes, cardiovascular disease, chronic kidney disease)?",
+      "type": "multi-select",
+      "options": ["Diabetes", "Cardiovascular disease", "Chronic kidney disease", "Obesity", "Hyperlipidemia", "None"],
+      "id": "comorbidities"
+    },
+    {
+      "question": "Have you had any recent lifestyle changes (e.g., increased salt intake, sedentary behavior, stress)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "lifestyle_changes"
+    },
+    {
+      "question": "Have you recently started any new medications (e.g., NSAIDs, corticosteroids, oral contraceptives)?",
+      "type": "multi-select",
+      "options": ["NSAIDs", "Corticosteroids", "Oral contraceptives", "Decongestants", "Other", "None"],
+      "id": "new_medications"
+    },
+    {
+      "question": "Do you have a family history of hypertension or heart disease?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "family_history"
+    },
+    {
+      "question": "Have you experienced any significant weight gain or fluid retention?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "weight_gain_fluid_retention"
+    },
+    {
+      "question": "Do you consume alcohol regularly?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "alcohol_consumption"
+    },
+    {
+      "question": "Do you have a history of smoking or tobacco use?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "smoking_history"
+    },
+    {
+      "question": "Are you experiencing any symptoms of a secondary cause of HTN?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "secondary_htn_symptoms"
+    },
+    {
+      "question": "If yes, do you have symptoms suggestive of the following secondary causes?",
+      "type": "multi-select",
+      "options": [
+        "Renal disease (e.g., hematuria, proteinuria, edema)",
+        "Hyperaldosteronism (e.g., muscle weakness, hypokalemia)",
+        "Pheochromocytoma (e.g., palpitations, sweating, headache)",
+        "Cushing's syndrome (e.g., central obesity, purple striae, bruising)",
+        "Hyperthyroidism (e.g., weight loss, tremors, heat intolerance)",
+        "Hypothyroidism (e.g., fatigue, cold intolerance, weight gain)",
+        "Sleep apnea (e.g., loud snoring, daytime fatigue)",
+        "Coarctation of the aorta (e.g., reduced lower limb pulses)",
+        "Primary hyperparathyroidism (e.g., kidney stones, bone pain)",
+        "Chronic steroid use (e.g., weight gain, mood changes)",
+        "Renovascular disease (e.g., abdominal bruit, flank pain)",
+        "Other",
+        "None"
+      ],
+      "id": "secondary_htn_causes"
+    },
+    {
+      "question": "Do you have any symptoms specific to renal disease?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "renal_disease_symptoms"
+    },
+    {
+      "question": "Do you have symptoms suggestive of hyperaldosteronism?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "hyperaldosteronism_symptoms"
+    },
+    {
+      "question": "Do you have symptoms suggestive of pheochromocytoma?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "pheochromocytoma_symptoms"
+    },
+    {
+      "question": "Do you have symptoms suggestive of Cushing's syndrome?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "cushings_syndrome_symptoms"
+    },
+    {
+      "question": "Do you have symptoms suggestive of hyperthyroidism?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "hyperthyroidism_symptoms"
+    },
+    {
+      "question": "Do you have symptoms suggestive of hypothyroidism?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "hypothyroidism_symptoms"
+    },
+    {
+      "question": "Do you have symptoms suggestive of sleep apnea?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "sleep_apnea_symptoms"
+    },
+    {
+      "question": "Do you have symptoms suggestive of coarctation of the aorta?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "coarctation_of_aorta_symptoms"
+    },
+    {
+      "question": "Do you have symptoms suggestive of primary hyperparathyroidism?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "primary_hyperparathyroidism_symptoms"
+    },
+    {
+      "question": "Do you have symptoms suggestive of chronic steroid use?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "chronic_steroid_use_symptoms"
+    },
+    {
+      "question": "Do you have symptoms suggestive of renovascular disease?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "renovascular_disease_symptoms"
+    }
+  ]
+}
+,{
+  "symptom": "Seizure",
+  "system": "Specific History Quick",
+  "followUps": [
+    {
+      "question": "What are the presenting symptoms?",
+      "type": "multi-select",
+      "options": ["Loss of consciousness", "Convulsions", "Tonic-clonic movements", "Lip smacking", "Tongue biting", "Incontinence", "Postictal confusion", "Aura", "None"],
+      "id": "presenting_symptoms"
+    },
+    {
+      "question": "What is the duration of the seizure?",
+      "type": "dropdown",
+      "options": ["<30 seconds", "30 seconds to 2 minutes", "More than 2 minutes"],
+      "id": "seizure_duration"
+    },
+    {
+      "question": "Was there any warning or aura before the seizure?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "seizure_aura"
+    },
+    {
+      "question": "What symptoms did you experience during the ictal phase (the seizure itself)?",
+      "type": "multi-select",
+      "options": ["Convulsions", "Tonic-clonic movements", "Lip smacking", "Tongue biting", "Incontinence", "Loss of consciousness", "None"],
+      "id": "ictal_symptoms"
+    },
+    {
+      "question": "Did you experience any symptoms in the pre-ictal phase (before the seizure started)?",
+      "type": "multi-select",
+      "options": ["Aura", "Dizziness", "Nausea", "Headache", "Changes in vision", "Other", "None"],
+      "id": "pre_ictal_symptoms"
+    },
+    {
+      "question": "What symptoms did you experience after the seizure (postictal phase)?",
+      "type": "multi-select",
+      "options": ["Confusion", "Drowsiness", "Headache", "Nausea", "Muscle soreness", "Fatigue", "Speech difficulty", "Other", "None"],
+      "id": "postictal_symptoms"
+    },
+    {
+      "question": "How long did the postictal confusion or drowsiness last?",
+      "type": "dropdown",
+      "options": ["<30 minutes", "30 minutes to 2 hours", "More than 2 hours", "None"],
+      "id": "postictal_duration"
+    },
+    {
+      "question": "How many seizures have you experienced?",
+      "type": "dropdown",
+      "options": ["First-time seizure", "1-2 previous seizures", "3 or more previous seizures"],
+      "id": "previous_seizures"
+    },
+    {
+      "question": "What was the timing of the seizure?",
+      "type": "dropdown",
+      "options": ["Daytime", "Nighttime", "Upon waking", "Other"],
+      "id": "seizure_timing"
+    },
+    {
+      "question": "Have you experienced any postictal symptoms (e.g., confusion, drowsiness, headache)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "postictal_symptoms"
+    },
+    {
+      "question": "Do you have a history of epilepsy or previous seizures?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "seizure_history"
+    },
+    {
+      "question": "Are you currently on any medications (e.g., antiepileptics, sedatives)?",
+      "type": "multi-select",
+      "options": ["Antiepileptic drugs (AEDs)", "Benzodiazepines", "Antidepressants", "Antipsychotics", "None"],
+      "id": "current_medications"
+    },
+    {
+      "question": "Have you had any recent changes to your medications?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "medication_changes"
+    },
+    {
+      "question": "Have you experienced any recent head trauma or injury?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "head_trauma"
+    },
+    {
+      "question": "Do you have a history of brain injury, stroke, or neurological conditions?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "neurological_conditions"
+    },
+    {
+      "question": "Have you had any recent infections (e.g., meningitis, encephalitis)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_infections"
+    },
+    {
+      "question": "Have you experienced any recent significant stress or sleep deprivation?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "stress_sleep_deprivation"
+    },
+    {
+      "question": "Do you have any history of alcohol or substance abuse?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "substance_abuse"
+    },
+    {
+      "question": "Do you have a family history of epilepsy or seizure disorders?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "family_history_seizures"
+    },
+    {
+      "question": "Are there any known triggers for your seizures?",
+      "type": "multi-select",
+      "options": ["Stress", "Sleep deprivation", "Flashing lights", "Fever", "Alcohol withdrawal", "Medications", "Other", "None"],
+      "id": "seizure_triggers"
+    },
+    {
+      "question": "Do you have any history of metabolic or electrolyte disturbances?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "electrolyte_disturbances"
+    },
+    {
+      "question": "Do you have a history of hypoglycemia, hyperglycemia, or diabetes?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "diabetes_history"
+    },
+    {
+      "question": "Do you have any other neurological symptoms (e.g., weakness, numbness, vision changes)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "neurological_symptoms"
+    },
+    {
+      "question": "What is the suspected cause of the seizure?",
+      "type": "multi-select",
+      "options": ["Epilepsy", "Head trauma", "Stroke", "Brain tumor", "Infection (e.g., meningitis, encephalitis)", "Metabolic disturbance", "Alcohol withdrawal", "Substance abuse", "Medications", "Fever", "Other", "Unknown"],
+      "id": "seizure_cause"
+    }
+  ]
+}
+,{
+  "symptom": "Anemia",
+  "system": "Specific History Quick",
+  "followUps": [
+    {
+      "question": "How long have you been feeling unusually tired or lacking energy?",
+      "type": "text",
+      "id": "fatigue_duration"
+    },
+    {
+      "question": "Does the fatigue worsen with any particular activity, or does it occur even when at rest?",
+      "type": "dropdown",
+      "options": ["Worsens with activity", "Occurs even at rest", "Both", "None"],
+      "id": "fatigue_activity"
+    },
+    {
+      "question": "Have you noticed any specific times of day when the fatigue is worse?",
+      "type": "text",
+      "id": "fatigue_time"
+    },
+    {
+      "question": "Have you noticed any weakness or difficulty with physical tasks that you could previously perform easily?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "weakness_physical_tasks"
+    },
+    {
+      "question": "Is the weakness more pronounced in any particular part of your body (e.g., arms, legs)?",
+      "type": "text",
+      "id": "weakness_location"
+    },
+    {
+      "question": "Have you experienced any muscle cramps or stiffness alongside the weakness?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "muscle_cramps"
+    },
+    {
+      "question": "Has anyone else commented on a change in the color of your skin or the inside of your eyelids?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "paleness_observation"
+    },
+    {
+      "question": "Have you noticed your lips, nails, or skin looking paler than usual?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "paleness_body_parts"
+    },
+    {
+      "question": "Is the paleness more noticeable after physical exertion?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "paleness_exertion"
+    },
+    {
+      "question": "When do you experience dizziness (e.g., standing up, bending over, or at rest)?",
+      "type": "text",
+      "id": "dizziness_triggers"
+    },
+    {
+      "question": "Do you feel lightheaded, faint, or like the room is spinning?",
+      "type": "multi-select",
+      "options": ["Lightheaded", "Faint", "Room spinning", "None"],
+      "id": "dizziness_types"
+    },
+    {
+      "question": "Have you ever experienced fainting or nearly fainting due to dizziness?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "fainting_history"
+    },
+    {
+      "question": "Have you been feeling more short of breath than usual, especially during physical activity or while climbing stairs?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "shortness_breath_activity"
+    },
+    {
+      "question": "Do you find yourself needing to take more breaks during normal daily activities because of breathlessness?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "shortness_breath_breaks"
+    },
+    {
+      "question": "Is the shortness of breath persistent, or does it occur only during exertion?",
+      "type": "dropdown",
+      "options": ["Persistent", "Occurs only during exertion"],
+      "id": "shortness_breath_persistence"
+    },
+    {
+      "question": "How often do you experience headaches? Are they different from headaches you've had in the past?",
+      "type": "text",
+      "id": "headache_frequency"
+    },
+    {
+      "question": "Are the headaches mild or severe, and do they affect your daily activities?",
+      "type": "dropdown",
+      "options": ["Mild", "Severe", "Both", "None"],
+      "id": "headache_severity"
+    },
+    {
+      "question": "Do you notice any specific triggers for your headaches (e.g., stress, lack of sleep, certain foods)?",
+      "type": "text",
+      "id": "headache_triggers"
+    },
+    {
+      "question": "Have you been experiencing any tightness, pressure, or discomfort in your chest?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "chest_pain"
+    },
+    {
+      "question": "Does the chest pain worsen with exertion or any physical activity?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "chest_pain_exertion"
+    },
+    {
+      "question": "Do you experience any other symptoms along with the chest pain, such as shortness of breath or sweating?",
+      "type": "multi-select",
+      "options": ["Shortness of breath", "Sweating", "Other", "None"],
+      "id": "chest_pain_associated_symptoms"
+    },
+    {
+      "question": "Have you noticed that your hands or feet feel colder than usual, especially during colder weather or at night?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "cold_hands_feet"
+    },
+    {
+      "question": "Do your hands or feet feel numb or tingly along with the cold sensation?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "cold_numbness_tingling"
+    },
+    {
+      "question": "Do you have difficulty warming up your hands or feet, even in a warm environment?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "cold_difficulty_warming"
+    },
+    {
+      "question": "Are there any other symptoms you have been experiencing that you think might be related to your anemia (e.g., leg cramps, restless legs, trouble concentrating)?",
+      "type": "text",
+      "id": "other_symptoms"
+    },
+    {
+      "question": "Have you noticed any changes in your appetite or eating habits?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "appetite_changes"
+    }
+  ]
+}
+,{
+  "symptom": "Pancytopenia",
+  "system": "Specific History Quick",
+  "followUps": [
+    {
+      "question": "Have you been feeling unusually tired or fatigued?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "fatigue"
+    },
+    {
+      "question": "Have you noticed any unexplained bruising or bleeding?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "bruising_bleeding"
+    },
+    {
+      "question": "Have you experienced frequent infections or fevers?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "infections_fever"
+    },
+    {
+      "question": "Do you have any history of recent weight loss or poor appetite?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "weight_loss_appetite"
+    },
+    {
+      "question": "Have you noticed any shortness of breath or dizziness?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "shortness_breath_dizziness"
+    },
+    {
+      "question": "Have you experienced pale skin, lips, or nail beds?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "paleness"
+    },
+    {
+      "question": "Have you had a recent infection or illness?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_infection_illness"
+    },
+    {
+      "question": "Are you on any medications or treatments that may affect blood counts (e.g., chemotherapy, immunosuppressants, antibiotics)?",
+      "type": "text",
+      "id": "medications_treatments"
+    },
+    {
+      "question": "Do you have any history of autoimmune disorders or bone marrow diseases?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "autoimmune_bone_marrow_history"
+    },
+    {
+      "question": "Do you have a history of alcohol use or exposure to toxins (e.g., chemicals, radiation)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "alcohol_toxin_exposure"
+    },
+    {
+      "question": "Have you had any recent surgeries or blood transfusions?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_surgeries_transfusions"
+    },
+    {
+      "question": "Do you have any family history of blood disorders or hematologic diseases?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "family_history_blood_disorders"
+    },
+    {
+      "question": "Do you have a history of chronic diseases, such as HIV, hepatitis, or tuberculosis?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "chronic_diseases_history"
+    },
+    {
+      "question": "Have you experienced any joint pain or rashes that may suggest an autoimmune disease?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "joint_pain_rashes"
+    },
+    {
+      "question": "Have you been diagnosed with any malignancies (e.g., leukemia, lymphoma)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "malignancy_history"
+    },
+    {
+      "question": "Are there any other symptoms you have been experiencing that might be related to pancytopenia?",
+      "type": "text",
+      "id": "other_symptoms"
+    }
+  ]
+}
+
 
 
 
