@@ -11395,6 +11395,275 @@
       "type": "text",      "id": "elevated_amylase"
     }
   ]
+},{
+  "symptom": "Pneumonia",
+  "system": "Specific History Quick",
+  "followUps": [
+    {
+      "question": "Duration of symptoms?",
+      "type": "text",
+      "id": "symptom_duration"
+    },
+    {
+      "question": "Do you have fever?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "fever"
+    },
+    {
+      "question": "If yes, what is the highest recorded temperature?",
+      "type": "text",
+      "id": "fever_temp"
+    },
+    {
+      "question": "Do you have chills or rigors?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "chills_rigors"
+    },
+    {
+      "question": "Do you have cough?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "cough"
+    },
+    {
+      "question": "If yes, is the cough productive?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "productive_cough"
+    },
+    {
+      "question": "If productive, what is the color of sputum?",
+      "type": "multi-select",
+      "options": ["White", "Yellow", "Green", "Rust-colored", "Blood-streaked"],
+      "id": "sputum_color"
+    },
+    {
+      "question": "Do you experience shortness of breath?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "dyspnea"
+    },
+    {
+      "question": "Is the shortness of breath worsening?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "dyspnea_worsening"
+    },
+    {
+      "question": "Do you have chest pain?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "chest_pain"
+    },
+    {
+      "question": "If yes, what is the nature of the chest pain?",
+      "type": "multi-select",
+      "options": ["Pleuritic (worsens with breathing)", "Sharp", "Dull", "Pressure-like"],
+      "id": "chest_pain_nature"
+    },
+    {
+      "question": "Do you have fatigue or generalized weakness?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "fatigue"
+    },
+    {
+      "question": "Have you noticed any change in mental status (e.g., confusion, drowsiness)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "mental_status_change"
+    },
+    {
+      "question": "Do you have a history of smoking?",
+      "type": "dropdown",
+      "options": ["Never", "Former", "Current"],
+      "id": "smoking_history"
+    },
+    {
+      "question": "If current or former, how many years have you smoked?",
+      "type": "text",
+      "id": "smoking_duration"
+    },
+    {
+      "question": "Do you have a history of alcohol use?",
+      "type": "dropdown",
+      "options": ["Never", "Former", "Current"],
+      "id": "alcohol_use_history"
+    },
+    {
+      "question": "If current or former, how many years and how much per day?",
+      "type": "text",
+      "id": "alcohol_intake"
+    },
+    {
+      "question": "Have you had any recent travel history?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "travel_history"
+    },
+    {
+      "question": "Have you been in contact with someone with respiratory illness?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "contact_history"
+    },
+    {
+      "question": "Have you been recently hospitalized?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_hospitalization"
+    },
+    {
+      "question": "Have you been diagnosed with pneumonia before?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "previous_pneumonia"
+    },
+    {
+      "question": "Do you have any chronic lung diseases (e.g., COPD, asthma)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "chronic_lung_disease"
+    },
+    {
+      "question": "Have you been vaccinated against pneumococcus and influenza?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "vaccination_history"
+    }
+  ]
+}
+,{
+  "symptom": "Heart Failure",
+  "system": "Specific History Quick",
+  "followUps": [
+    {
+      "question": "What is the NYHA classification?",
+      "type": "dropdown",
+      "options": ["I", "II", "III", "IV"],
+      "id": "nyha_class"
+    },
+    {
+      "question": "Do you experience shortness of breath?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "dyspnea"
+    },
+    {
+      "question": "Is your shortness of breath worse on exertion or at rest?",
+      "type": "dropdown",
+      "options": ["Exertion", "Rest"],
+      "id": "dyspnea_exertion_rest"
+    },
+    {
+      "question": "Do you experience orthopnea (difficulty breathing while lying down)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "orthopnea"
+    },
+    {
+      "question": "How many pillows do you use to sleep comfortably?",
+      "type": "text",
+      "id": "pillows_used"
+    },
+    {
+      "question": "Do you have paroxysmal nocturnal dyspnea (sudden shortness of breath at night)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "pnd"
+    },
+    {
+      "question": "Have you noticed swelling in your legs or abdomen?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "edema"
+    },
+    {
+      "question": "Do you experience fatigue or generalized weakness?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "fatigue"
+    },
+    {
+      "question": "Have you had any recent weight gain or increased fluid retention?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "fluid_retention"
+    },
+    {
+      "question": "Do you have a history of hypertension, diabetes, or coronary artery disease?",
+      "type": "multi-select",
+      "options": ["Hypertension", "Diabetes", "Coronary Artery Disease", "None"],
+      "id": "comorbidities"
+    },
+    {
+      "question": "Are you currently taking any medications for heart failure (e.g., beta-blockers, ACE inhibitors, diuretics)?",
+      "type": "text",
+      "id": "medications"
+    },
+    {
+      "question": "Have you been hospitalized for heart failure before?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "previous_hospitalization"
+    },
+    {
+      "question": "Have you had any recent changes in your medication or treatment plan?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "medication_changes"
+    },
+    {
+      "question": "Have you had a recent infection, such as pneumonia or urinary tract infection?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_infection"
+    },
+    {
+      "question": "Have you had a recent myocardial infarction (heart attack)?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_mi"
+    },
+    {
+      "question": "Have you experienced any recent arrhythmias or palpitations?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_arrhythmia"
+    },
+    {
+      "question": "Have you had a recent high salt intake or dietary indiscretion?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "dietary_indiscretion"
+    },
+    {
+      "question": "Have you recently missed doses of your heart failure medications?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "missed_medications"
+    },
+    {
+      "question": "Have you had a recent blood transfusion or excessive IV fluid intake?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "fluid_overload"
+    },
+    {
+      "question": "What is the primary etiology of the heart failure?",
+      "type": "dropdown",
+      "options": ["Ischemic", "Hypertensive", "Valvular", "Idiopathic", "Other"],
+      "id": "hf_etiology"
+    },
+    {
+      "question": "Do you have any of the following risk factors for heart failure?",
+      "type": "multi-select",
+      "options": ["Obesity", "Smoking", "Alcohol use", "Chronic kidney disease", "Family history of heart disease"],
+      "id": "hf_risk_factors"
+    }
+  ]
 }
 
 
