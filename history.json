@@ -11665,6 +11665,108 @@
     }
   ]
 }
+,{
+  "symptom": "Upper Gastrointestinal Bleeding (UGI Bleed)",
+  "system": "Specific History Quick",
+  "followUps": [
+    {
+      "question": "What are the presenting symptoms?",
+      "type": "multi-select",
+      "options": ["Hematemesis", "Melena", "Hematochezia", "Epigastric pain", "Syncope", "None"],
+      "id": "presenting_symptoms"
+    },
+    {
+      "question": "Is the hematemesis bright red or coffee-ground in appearance?",
+      "type": "dropdown",
+      "options": ["Bright red", "Coffee-ground"],
+      "id": "hematemesis_appearance"
+    },
+    {
+      "question": "What is the estimated volume of blood loss?",
+      "type": "dropdown",
+      "options": ["<100 mL", "100-500 mL", ">500 mL"],
+      "id": "blood_loss_volume"
+    },
+    {
+      "question": "What is the duration of bleeding symptoms?",
+      "type": "dropdown",
+      "options": ["<24 hours", "1-3 days", "More than 3 days"],
+      "id": "bleeding_duration"
+    },
+    {
+      "question": "Do you have a history of peptic ulcer disease or gastritis?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "pud_history"
+    },
+    {
+      "question": "Have you had previous episodes of gastrointestinal bleeding?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "previous_ugi_bleed"
+    },
+    {
+      "question": "Are you taking any NSAIDs, aspirin, anticoagulants, or corticosteroids?",
+      "type": "multi-select",
+      "options": ["NSAIDs", "Aspirin", "Anticoagulants", "Corticosteroids", "None"],
+      "id": "medications"
+    },
+    {
+      "question": "Do you consume alcohol regularly?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "alcohol_use"
+    },
+    {
+      "question": "Do you have a history of liver disease, cirrhosis, or portal hypertension?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "liver_disease_history"
+    },
+    {
+      "question": "Have you had any recent episodes of vomiting, retching, or severe coughing?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_vomiting"
+    },
+    {
+      "question": "Do you have a history of esophageal varices or endoscopic treatment for bleeding?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "varices_history"
+    },
+    {
+      "question": "Have you had any recent major surgery or trauma?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "recent_surgery_trauma"
+    },
+    {
+      "question": "Have you noticed any signs of anemia such as fatigue, dizziness, or pallor?",
+      "type": "dropdown",
+      "options": ["Yes", "No"],
+      "id": "anemia_symptoms"
+    },
+    {
+      "question": "What is the suspected etiology of the UGI bleed?",
+      "type": "dropdown",
+      "options": ["Peptic ulcer disease", "Esophageal varices", "Gastritis", "Mallory-Weiss tear", "Gastrointestinal malignancy", "Other"],
+      "id": "ugi_bleed_etiology"
+    },
+    {
+      "question": "What are the possible triggers of the UGI bleed?",
+      "type": "multi-select",
+      "options": ["NSAID or aspirin use", "Heavy alcohol consumption", "Infection", "Trauma", "Severe vomiting", "Unknown"],
+      "id": "ugi_bleed_triggers"
+    },
+    {
+      "question": "Do you have any risk factors for UGI bleeding?",
+      "type": "multi-select",
+      "options": ["H. pylori infection", "Smoking", "Alcohol use", "Chronic liver disease", "Use of anticoagulants", "Prior history of GI bleeding"],
+      "id": "ugi_bleed_risk_factors"
+    }
+  ]
+}
 
 
 
