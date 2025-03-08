@@ -1,0 +1,2649 @@
+   [
+   {
+      "name":"CT Scan",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"indication",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"give form",
+            "type":"multi-select",
+            "value":"",
+            "options":[
+               "give forms"
+            ]
+         },
+         {
+            "name":"find when",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"trace reports",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"Echo",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"give form",
+            "type":"multi-select",
+            "options":[
+               "given"
+            ],
+            "value":""
+         },
+         {
+            "name":"find when",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"trace reports",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"LP",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"procedure",
+            "type":"multi-select",
+            "options":[
+               "given"
+            ],
+            "value":""
+         },
+         {
+            "name":"sample",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"TC",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"DC",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Sugar",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Protein",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"GS",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"CS",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"AFB",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Gene Xpert",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"ADA",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Color",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"TC",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"pressure",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"Pneumonia",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Chest X-Ray (CXR)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"CXR Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Blood Culture",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Blood Culture Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Complete Blood Count (CBC)",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Renal Function Tests (RFT)",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Sputum Gram Stain (GS)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Sputum Gram Stain (GS) Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Sputum Culture & Sensitivity (CS)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Sputum Culture & Sensitivity (CS) Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Sputum Acid-Fast Bacilli (AFB)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Sputum Acid-Fast Bacilli (AFB) Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Sputum GeneXpert",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Sputum GeneXpert Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"C-Reactive Protein (CRP)",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Erythrocyte Sedimentation Rate (ESR)",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"Stroke",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Non-Contrast CT (NCCT)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"NCCT Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Echocardiography",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Echocardiography Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"ECG (Electrocardiogram)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"ECG Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Holter ECG",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Holter ECG Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Lipid Profile",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Lipid Profile Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Fasting Glucose or HbA1C",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Fasting Glucose or HbA1C Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Carotid Doppler",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Carotid Doppler Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"If age < 45 years (stroke in young): HIV",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"HIV Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"VDRL (Venereal Disease Research Laboratory)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"VDRL Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"APLA (Antiphospholipid Antibodies)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"APLA Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"ANA (Antinuclear Antibodies)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"ANA Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"Chronic Liver Disease (CLD)",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Liver Function Tests (LFT)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"LFT Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Ultrasound Abdomen (USG)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"USG Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Hepatitis B Surface Antigen (HBsAg)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"HBsAg Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"HCV Antibody",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"HCV Antibody Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Alpha-fetoprotein (AFP)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"AFP Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Endoscopy (if varices suspected)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Endoscopy Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"CT Abdomen (if required)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"CT Abdomen Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Coagulation Profile (INR, PT)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Coagulation Profile Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"Chronic Kidney Disease (CKD)",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Serum Creatinine",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Serum Creatinine Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Blood Urea Nitrogen (BUN)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"BUN Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Estimated Glomerular Filtration Rate (eGFR)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"eGFR Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Urine Routine (Urine Dipstick)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Urine Routine Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Urinary Protein (24-Hour Urine or Albumin-to-Creatinine Ratio)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Urinary Protein Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Urinalysis (Microscopic Examination)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Urinalysis Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Ultrasound Kidney (USG)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"USG Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Renal Biopsy (if indicated)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Renal Biopsy Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Electrolytes (Sodium, Potassium, Calcium, Phosphorus)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Electrolytes Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Coagulation Profile (INR, PT)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Coagulation Profile Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Vitamin D Level",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Vitamin D Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Parathyroid Hormone (PTH)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"PTH Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"Acute Kidney Injury (AKI)",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Serum Creatinine",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Serum Creatinine Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Blood Urea Nitrogen (BUN)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"BUN Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Estimated Glomerular Filtration Rate (eGFR)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"eGFR Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Urine Output Monitoring",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Urine Output Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Urinalysis (Dipstick)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Urinalysis Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Ultrasound Kidney (USG)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"USG Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Electrolytes (Sodium, Potassium, Calcium, Phosphorus)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Electrolytes Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Coagulation Profile (INR, PT)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Coagulation Profile Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Liver Function Tests (LFTs)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"LFT Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Chest X-Ray (CXR)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"CXR Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Arterial Blood Gas (ABG)",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"ABG Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"CLD-Variceal Bleeding - Immediate Hospitalization",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Fluid Resuscitation",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Fluid Resuscitation Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Antibiotic Prophylaxis (Ceftriaxone or Cotrim-DS)",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Antibiotic Prophylaxis Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Diagnostic Endoscopy within 12 hrs.",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Endoscopy Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Hemoglobin (Hb) Level Monitoring",
+            "type":"multi-select",
+            "options":[
+               "ordered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hemoglobin Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Glasgow-Blatchford Score",
+            "type":"multi-select",
+            "options":[
+               "calculated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Glasgow-Blatchford Score Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Primary Prophylaxis Initiation (NSBB)",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Primary Prophylaxis Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"CLD-Hepatic Encephalopathy",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Grading of Hepatic Encephalopathy",
+            "type":"multi-select",
+            "options":[
+               "I",
+               "II",
+               "III",
+               "IV"
+            ],
+            "value":""
+         },
+         {
+            "name":"Grading Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"General Treatment - Nutritional Support",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Nutritional Support Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"General Treatment - Safe Environment and Hydration",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Safe Environment and Hydration Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Agitated Patient - Use of Restraints",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Restraints Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Agitated Patient - Inj. Haloperidol (0.5-1.0 mg)",
+            "type":"multi-select",
+            "options":[
+               "administered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Haloperidol Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Discontinue All Diuretics",
+            "type":"multi-select",
+            "options":[
+               "discontinued"
+            ],
+            "value":""
+         },
+         {
+            "name":"Diuretics Discontinuation Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Meal Plan - Complex Carbohydrates and Late-Night Snack",
+            "type":"multi-select",
+            "options":[
+               "followed"
+            ],
+            "value":""
+         },
+         {
+            "name":"Meal Plan Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"No Protein Restriction",
+            "type":"multi-select",
+            "options":[
+               "followed"
+            ],
+            "value":""
+         },
+         {
+            "name":"Protein Restriction Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Correct Precipitating Cause (if any)",
+            "type":"multi-select",
+            "options":[
+               "GI Bleed",
+               "Hypovolemia",
+               "Constipation",
+               "Sedative Drugs",
+               "Hypokalemia",
+               "Hypoglycemia",
+               "Renal Failure",
+               "Metabolic Acidosis",
+               "Hypoxia",
+               "Infection (Incl. SBP)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Precipitating Cause Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Lower Blood Ammonia - Lactulose (30-45 mL 2-4 times per day)",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Lactulose Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"No Response with Lactulose - Add Rifaximin 550 mg BD",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Rifaximin Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Outpatient Medications for Recurrent HE - Lactulose and Rifaximin",
+            "type":"multi-select",
+            "options":[
+               "prescribed"
+            ],
+            "value":""
+         },
+         {
+            "name":"Outpatient Medication Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Do Not Give Rifaximin if Other Systemic Antibiotics are Administered",
+            "type":"multi-select",
+            "options":[
+               "followed"
+            ],
+            "value":""
+         },
+         {
+            "name":"Rifaximin Contraindication Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Do Not Give Prophylaxis with Lactulose if No HE is Present",
+            "type":"multi-select",
+            "options":[
+               "followed"
+            ],
+            "value":""
+         },
+         {
+            "name":"Prophylaxis Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"CLD-Hepatorenal Syndrome (HRS)",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Definition of AKI",
+            "type":"multi-select",
+            "options":[
+               "Increase in sCr ≥ 0.3 mg/dl within 48 hours",
+               "Increase in sCr ≥ 50% within the prior 7 days"
+            ],
+            "value":""
+         },
+         {
+            "name":"AKI Definition Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Remove Risk Factors",
+            "type":"multi-select",
+            "options":[
+               "Withdrawal of nephrotoxic drugs",
+               "Withdrawal of vasodilators",
+               "Withdrawal of NSAIDs",
+               "Withdrawal of β-blockers",
+               "Treat infections"
+            ],
+            "value":""
+         },
+         {
+            "name":"Risk Factors Removal Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Withdraw Diuretics and Expand Volume",
+            "type":"multi-select",
+            "options":[
+               "albumin 20% 100 ml daily for 2 days"
+            ],
+            "value":""
+         },
+         {
+            "name":"Diuretics and Volume Expansion Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Therapeutic Paracentesis (if AKI + tense ascites)",
+            "type":"multi-select",
+            "options":[
+               "albumin infusion even if low volume of ascitic fluid removed"
+            ],
+            "value":""
+         },
+         {
+            "name":"Paracentesis Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Criteria for Hepatorenal Syndrome (HRS)",
+            "type":"multi-select",
+            "options":[
+               "AKI in setting of cirrhosis and ascites",
+               "No response after 2 days of diuretic withdrawal and plasma volume expansion",
+               "Absence of shock",
+               "No current/recent use of nephrotoxic drugs",
+               "No macroscopic signs of structural kidney injury",
+               "Absence of protein in urine",
+               "Absence of RBCs in urine",
+               "Normal renal ultrasonography findings"
+            ],
+            "value":""
+         },
+         {
+            "name":"HRS Criteria Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Albumin Solution for HRS (20%) 100 ml daily",
+            "type":"multi-select",
+            "options":[
+               "administered until SCr<1.5 mg/dl or max 14 days"
+            ],
+            "value":""
+         },
+         {
+            "name":"Albumin Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Terlipressin (1 mg every 4-6 hours)",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Terlipressin Response Evaluation:",
+            "type":"multi-select",
+            "options":[
+               "Non-response: Increase dose to 2 mg every 4 hours if no SCr decrease of <25% after 2 days"
+            ],
+            "value":""
+         },
+         {
+            "name":"Terlipressin Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Noradrenaline Infusion (0.5-3 mg/h) as Alternative to Terlipressin",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Noradrenaline Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"ECG Prior to Starting Terlipressin or Noradrenaline",
+            "type":"multi-select",
+            "options":[
+               "performed"
+            ],
+            "value":""
+         },
+         {
+            "name":"ECG Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Octreotide as an Option if Terlipressin or Noradrenaline Unavailable",
+            "type":"multi-select",
+            "options":[
+               "considered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Octreotide Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Dialysis Consideration (if patient is not a liver transplant candidate)",
+            "type":"multi-select",
+            "options":[
+               "discouraged"
+            ],
+            "value":""
+         },
+         {
+            "name":"Dialysis Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"CLD-Prognosis",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Inform Patient Party of Prognosis Based on Child-Pugh Score",
+            "type":"multi-select",
+            "options":[
+               "informed"
+            ],
+            "value":""
+         },
+         {
+            "name":"Child-Pugh Scoring - Prothrombin Time/INR",
+            "type":"multi-select",
+            "options":[
+               "<4.0 (1 point)",
+               "4.0–6.0 (2 points)",
+               ">6.0 (3 points)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Prothrombin Time/INR Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Child-Pugh Scoring - Serum Albumin",
+            "type":"multi-select",
+            "options":[
+               ">3.5 g/dL (1 point)",
+               "2.8–3.5 g/dL (2 points)",
+               "<2.8 g/dL (3 points)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Serum Albumin Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Child-Pugh Scoring - Total Bilirubin",
+            "type":"multi-select",
+            "options":[
+               "<2.0 mg/dL (1 point)",
+               "2.0–3.0 mg/dL (2 points)",
+               ">3.0 mg/dL (3 points)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Total Bilirubin Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Child-Pugh Scoring - Ascites",
+            "type":"multi-select",
+            "options":[
+               "None (1 point)",
+               "Mild or suppressed (2 points)",
+               "Moderate to severe (3 points)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Ascites Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Child-Pugh Scoring - Hepatic Encephalopathy",
+            "type":"multi-select",
+            "options":[
+               "None (1 point)",
+               "Grade I–II (2 points)",
+               "Grade III–IV (3 points)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hepatic Encephalopathy Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Child-Pugh Class & Score",
+            "type":"multi-select",
+            "options":[
+               "Class A (5-6 points) - 1 year survival 100%, 2 year survival 85%",
+               "Class B (7-9 points) - 1 year survival 80%, 2 year survival 60%",
+               "Class C (10-15 points) - 1 year survival 45%, 2 year survival 35%"
+            ],
+            "value":""
+         },
+         {
+            "name":"Class/Score Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"CLD-Hyponatremia",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Serum Sodium Concentration <130 mmol/L",
+            "type":"multi-select",
+            "options":[
+               "confirmed"
+            ],
+            "value":""
+         },
+         {
+            "name":"Withdraw NSBB, Diuretics, Antihypertensive Agents",
+            "type":"multi-select",
+            "options":[
+               "withdrawn"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hyponatremia Management Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Correct Hypokalemia if Present",
+            "type":"multi-select",
+            "options":[
+               "corrected"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hypokalemia Correction Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"If Severe, Symptomatic Hyponatremia (<120 mmol/L)",
+            "type":"multi-select",
+            "options":[
+               "Albumin infusion 20% 100 ml daily",
+               "Hypertonic saline + loop diuretics",
+               "Therapeutic paracentesis"
+            ],
+            "value":""
+         },
+         {
+            "name":"Severe Hyponatremia Management Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"CLD-Coagulopathy",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Asymptomatic Raised INR or Low Platelet Count",
+            "type":"multi-select",
+            "options":[
+               "no treatment required"
+            ],
+            "value":""
+         },
+         {
+            "name":"Bleeding Present - Transfusion Options",
+            "type":"multi-select",
+            "options":[
+               "Transfuse FFP or Cryoprecipitate",
+               "Transfuse RBC or Platelets (maintain Hb >7, Platelet > 50,000)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Vitamin K Deficiency - Management",
+            "type":"multi-select",
+            "options":[
+               "Give 10 mg IV single dose"
+            ],
+            "value":""
+         },
+         {
+            "name":"Bleeding Management Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Treat Infection, Uremia if Present",
+            "type":"multi-select",
+            "options":[
+               "treated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Infection/Uremia Treatment Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"CLD-Nutrition",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Energy Intake: 35 to 40 kcal/kg/day",
+            "type":"multi-select",
+            "options":[
+               "maintained"
+            ],
+            "value":""
+         },
+         {
+            "name":"Protein Intake: 1.4 gm/kg/day",
+            "type":"multi-select",
+            "options":[
+               "maintained"
+            ],
+            "value":""
+         },
+         {
+            "name":"No Protein Restriction, Even in HE",
+            "type":"multi-select",
+            "options":[
+               "followed"
+            ],
+            "value":""
+         },
+         {
+            "name":"Use Poustik Sanjivani as Nutritional Supplement",
+            "type":"multi-select",
+            "options":[
+               "administered"
+            ],
+            "value":""
+         },
+         {
+            "name":"Eat Small Meals Throughout the Day with Late-Night Snack",
+            "type":"multi-select",
+            "options":[
+               "maintained"
+            ],
+            "value":""
+         },
+         {
+            "name":"Use Tube Feeding if Unable to Maintain Oral Intake",
+            "type":"multi-select",
+            "options":[
+               "initiated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Nutrition Management Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"CLD-Ascites-Management",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Diagnostic Paracentesis Indicated in New-Onset Moderate to Gross Ascites",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Diagnostic Paracentesis Indicated in Worsening Ascites or Any Cirrhosis Complication",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Ascitic Fluid Analysis - Serum-Ascites Albumin Gradient (SAAG)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Ascitic Fluid Analysis - Neutrophil Count (SBP Diagnosis)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Ascitic Fluid Analysis - Protein Level (SBP Prophylaxis or CCF)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Ascitic Fluid Culture Performed",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Mild Ascites - Sodium Restriction (<2gm Na/day)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Moderate Ascites - Sodium Restriction + Diuretics (Lasilactone)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"If No Adequate Response in 5 Days, Increase Diuretics (Lasilactone)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"If Hypokalemia, Start Spironolactone Monotherapy",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Recommended Maximum Weight Loss: 0.5 kg/day (No Edema), 1 kg/day (Edema)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Once Ascites Mostly Resolved, Reduce Diuretics to Lowest Effective Dose",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Gross Ascites - Salt Restriction + Diuretics + Large Volume Paracentesis (LVP)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"LVP ≥ 5 Liters with Albumin Infusion (Albumin 20% 100ml over 30 mins)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"LVP < 5 Liters without Albumin Infusion",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hepatic Hydrothorax - Avoid Chest Tube",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Refractory Ascites - Repeat LVP + Albumin and Discontinue NSBB",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"AKI - Stop Diuretics",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hyponatremia - Stop Diuretics",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hypokalemia - Stop Furosemide",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hyperkalemia - Stop Spironolactone",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hepatic Encephalopathy - Stop Diuretics",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Gynecomastia - Replace Spironolactone with Amiloride",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Muscle Cramps - Correct K, Mg or Baclofen 10mg Daily",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Contraindicated Drugs: NSAIDs",
+            "type":"multi-select",
+            "options":[
+               "contraindicated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Contraindicated Drugs: ACEI or ARB",
+            "type":"multi-select",
+            "options":[
+               "contraindicated"
+            ],
+            "value":""
+         },
+         {
+            "name":"Contraindicated Drugs: Aminoglycosides",
+            "type":"multi-select",
+            "options":[
+               "contraindicated"
+            ],
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"Chronic Fever",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Differential Diagnosis",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Tuberculosis",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Malignancies (Especially lymphoma, leukemia)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"HIV",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Bacterial Abscess",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Connective Tissue Disease (Incl. Still’s Disease, Giant Cell Arteritis)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Drugs",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Brucellosis",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Kala Azar",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Osteomyelitis",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Bacterial Endocarditis",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Investigations",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"ESR or CRP",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Serum LDH",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Serum Ferritin",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Tuberculin Skin Test",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"HIV Immunoassay",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Three Routine Blood Cultures (10cc each)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Rheumatoid Factor",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"ANA",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Lumbar Puncture",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Biopsies (As Directed by Other Findings)",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Other Considerations in FUO",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Repeat Detailed History and Examination by a Senior Doctor",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Exclude Manipulation with Thermometer",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Stop or Replace Medications to Exclude Drug Fever",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Bone Marrow Biopsy if CBC Abnormal",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Chest and Abdominal CT if Still No Diagnosis",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Temporal Artery Biopsy if >55 Years Old with High ESR",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Stable Condition: Follow-up, Consider NSAIDs",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Fever Persists/Sick: Consider Separate Trials of Chloroquine, Antibiotics, then ATT",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Deteriorates: Further Cultures and Add Broad Spectrum Antibiotics",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         }
+      ]
+   },
+   {
+      "name":"Pancreatitis",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Fluid Therapy",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Normal Saline or Ringer’s Lactate 60 ml/kg Over First 12 Hours",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"This Volume Should be Reduced in Elderly or Those with Cardiac Disease",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Rapid Repletion if Shock: 20 ml/kg Over 30 Minutes, Then 30 ml/kg Over Next 12 Hours",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Fluid Resuscitation Guided by Vital Signs / Urine Output",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Repeat Hematocrit, RFT Daily Until Stable",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Goal-Directed Therapy",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"HR < 120/min, MAP 65-85 mmHg, Urine Output > 0.5 ml/kg/hr, Hematocrit 35-44%",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Analgesia",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Inj. Tramadol 50mg 8 Hourly and Ondansetron 4mg 8 Hourly",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"If Severe or Not Relieved: Inj. Pethidine 50mg 6 Hourly or Inj. Morphine 5mg 4 Hourly",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Nutrition",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Attempt Full Calorie/Full Protein as Soon as Tolerated",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Mild Cases – Start Feeding Low Fat/Semi-Solid from Next Morning",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Moderate/Severe – Continue NPO Until Pain Subsides",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Vomiting – NG Tube Insertion, May Attempt Jejunal Feeding if Persistent Vomiting",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Antibiotics",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"No Prophylactic Antibiotics",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Start Antibiotics if Any of Following is Present:",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Proven Focus of Infection, Fever with No Other Identifiable Cause, Clinically Unstable Patient, Presence of Gas within Necrosis",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Antibiotic Regimens",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Inj. Meropenem 1gm 8 Hourly, Inj. Imipenem 1gm 8 Hourly, or Inj. Cefepime 2gm 12 Hourly and Inj. Metronidazole 500mg 8 Hourly",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Imaging / Collections",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"CECT Reserved for Unclear Diagnosis, Failure to Improve Clinically Within 72 Hours or Fluid Collection Seen on Ultrasound",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"MRCP for Failure to Improve Clinically, Persistently Raised LFT, Pregnancy",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         },
+         {
+            "name":"Surgical Consultation",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":""
+         },
+         {
+            "name":"Biliary Pancreatitis, Walled-off Necrosis, Symptomatic or Rapidly Enlarging Pseudocyst, Failure to Improve with Medical Management",
+            "type":"multi-select",
+            "options":[
+               "done"
+            ],
+            "value":"",
+            "text":""
+         }
+      ]
+   },
+   {
+      "name":"Hypertension Evaluation",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Renal Parenchymal Disease",
+            "type":"multi-select",
+            "options":[
+               "Diabetes",
+               "Hematuria",
+               "Proteinuria",
+               "Nocturia",
+               "Anemia",
+               "Renal mass",
+               "Polycystic kidney disease"
+            ],
+            "value":""
+         },
+         {
+            "name":"Renal Parenchymal Disease Findings:",
+            "type":"text",
+            "value":"Urinary protein:creatinine ratio; renal ultrasound"
+         },
+         {
+            "name":"Obstructive Sleep Apnea",
+            "type":"multi-select",
+            "options":[
+               "Snoring",
+               "Obesity",
+               "Morning headache",
+               "Daytime somnolence"
+            ],
+            "value":""
+         },
+         {
+            "name":"Obstructive Sleep Apnea Findings:",
+            "type":"text",
+            "value":"Epworth score"
+         },
+         {
+            "name":"Atherosclerotic Renovascular Disease",
+            "type":"multi-select",
+            "options":[
+               "Older",
+               "Diabetes",
+               "Smoking",
+               "Recurrent flash pulmonary edema",
+               "Abdominal bruit"
+            ],
+            "value":""
+         },
+         {
+            "name":"Atherosclerotic Renovascular Disease Findings:",
+            "type":"text",
+            "value":"Duplex renal artery Doppler"
+         },
+         {
+            "name":"Hypo/Hyperthyroidism",
+            "type":"multi-select",
+            "options":[
+               "Weight loss/gain",
+               "Sweating/Cold intolerance",
+               "Change in stool frequency"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hypo/Hyperthyroidism Findings:",
+            "type":"text",
+            "value":"TSH"
+         },
+         {
+            "name":"Primary Aldosteronism",
+            "type":"multi-select",
+            "options":[
+               "Mostly asymptomatic",
+               "Muscle weakness (hypokalemia)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Primary Aldosteronism Findings:",
+            "type":"text",
+            "value":"Plasma aldosterone/renin ratio"
+         },
+         {
+            "name":"Pheochromocytoma",
+            "type":"multi-select",
+            "options":[
+               "Paroxysmal hypertension",
+               "Pounding headache",
+               "Perspiration",
+               "Palpitations",
+               "Pallor"
+            ],
+            "value":""
+         },
+         {
+            "name":"Pheochromocytoma Findings:",
+            "type":"text",
+            "value":"Plasma or 24-hr urinary fractionated Metanephrine and/or Catecholamine"
+         },
+         {
+            "name":"Cushing’s Syndrome",
+            "type":"multi-select",
+            "options":[
+               "Moon face",
+               "Central obesity",
+               "Skin atrophy",
+               "Striae and bruising",
+               "Diabetes",
+               "Chronic steroid use"
+            ],
+            "value":""
+         },
+         {
+            "name":"Cushing’s Syndrome Findings:",
+            "type":"text",
+            "value":"24-hr urinary-free cortisol"
+         },
+         {
+            "name":"Hyperparathyroidism",
+            "type":"multi-select",
+            "options":[
+               "Hypercalcemia",
+               "Hypophosphatemia"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hyperparathyroidism Findings:",
+            "type":"text",
+            "value":"Parathyroid hormone"
+         },
+         {
+            "name":"Coarctation of the Aorta",
+            "type":"multi-select",
+            "options":[
+               "Different BP (≥ 20/10 mmHg) between upper-lower extremities",
+               "Delayed radial-femoral pulsation"
+            ],
+            "value":""
+         },
+         {
+            "name":"Coarctation of the Aorta Findings:",
+            "type":"text",
+            "value":"Echocardiogram"
+         },
+         {
+            "name":"Drug or Alcohol Induced Hypertension",
+            "type":"multi-select",
+            "options":[
+               "Sodium-containing antacids",
+               "Caffeine",
+               "Smoking",
+               "Alcohol",
+               "NSAIDs",
+               "Oral contraceptives",
+               "Decongestants",
+               "Cocaine",
+               "Antidepressants",
+               "Atypical antipsychotics",
+               "Corticosteroids",
+               "Daily paracetamol use"
+            ],
+            "value":""
+         },
+         {
+            "name":"Drug or Alcohol Induced Hypertension Findings:",
+            "type":"text",
+            "value":"Identify offending drug or substance"
+         }
+      ]
+   },
+   {
+      "name":"Hypertension Treatment",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Non-Pharmacological Measures",
+            "type":"multi-select",
+            "options":[
+               "No added salts or high-salt food",
+               "Smoking cessation",
+               "Alcohol cessation",
+               "Increased consumption of vegetables, fresh fruits, fish, low-fat dairy products",
+               "Decreased consumption of red meat",
+               "Reduction of 1 kg weight decreases BP by 1 mm Hg",
+               "BMI target = 20-23 kg/m2",
+               "Regular exercise of at least 30 min for 5-7 days a week"
+            ],
+            "value":""
+         },
+         {
+            "name":"Non-Pharmacological Measures Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Pharmacological Treatment Indication",
+            "type":"multi-select",
+            "options":[
+               "No Risk Factor",
+               "Risk Factor",
+               "Stage I: 130-139 or / 80-89 - Observe, Treat if persists",
+               "Stage II: >140 or / >90 - Dual Therapy (A+C)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Pharmacological Treatment Indication Findings:",
+            "type":"text",
+            "value":"[Cardiovascular disease; CKD; DM; ASCVD Risk>10%; >65 y.o.]"
+         },
+         {
+            "name":"Medications",
+            "type":"multi-select",
+            "options":[
+               "A (ACE Inhibitor or ARB) - Enalapril 2.5–20mg OD or Losartan 25–100mg OD or Telmisartan 40–80mg OD",
+               "C (Dihydropyridine CCB) - Amlodipine 2.5–10mg OD",
+               "D (Diuretic) - Chlorthalidone 12.5–50mg OD or HCTZ 12.5–25mg OD",
+               "S (Spironolactone) - 25–50mg OD"
+            ],
+            "value":""
+         },
+         {
+            "name":"Medications Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Dual Therapy Sequence",
+            "type":"multi-select",
+            "options":[
+               "Low dose A+C (Single OD tab)",
+               "High dose A+C",
+               "High dose A+C+D",
+               "High dose A+C+D+S"
+            ],
+            "value":""
+         },
+         {
+            "name":"Dual Therapy Sequence Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Beta-Blockers",
+            "type":"multi-select",
+            "options":[
+               "Avoid use except where ischemic heart disease or rate control is also being managed",
+               "Prefer: Metoprolol XL (Not atenolol)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Beta-Blockers Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Targets",
+            "type":"multi-select",
+            "options":[
+               "In patients < 65 years: ≤ 130/80 mm Hg",
+               "In older patients (aged ≥ 65 years) receiving BP-lowering drugs: SBP should be targeted to a BP range of 130–139 mmHg",
+               "A DBP target of <80 mmHg should be considered for all hypertensive patients, independent of the level of risk and comorbidities"
+            ],
+            "value":""
+         },
+         {
+            "name":"Targets Findings:",
+            "type":"text",
+            "value":""
+         }
+      ]
+   },
+   {
+      "name":"Hypertensive Crises",
+      "type":"multi-step",
+      "done":"due",
+      "steps":[
+         {
+            "name":"Hypertensive Urgency",
+            "type":"multi-select",
+            "options":[
+               "Severe BP elevation (>180/120) in otherwise stable patients without acute or impending change in target organ damage or dysfunction",
+               "No need to be admitted",
+               "Managed with usual oral drugs in increased doses",
+               "Target BP < 160/100 within a few days. Once achieved, target as above (section 4.3)"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hypertensive Urgency Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Hypertensive Emergency",
+            "type":"multi-select",
+            "options":[
+               "Severe elevations in BP (>180/120) associated with evidence of new or worsening target organ damage such as:",
+               "Hypertensive encephalopathy, intracerebral hemorrhage, or acute ischemic stroke",
+               "Acute MI, acute LV failure with pulmonary edema, unstable angina pectoris, dissecting aortic aneurysm",
+               "Acute renal failure OR eclampsia"
+            ],
+            "value":""
+         },
+         {
+            "name":"Hypertensive Emergency Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Systolic BP Reduction Rates/Targets",
+            "type":"multi-select",
+            "options":[
+               "If eclampsia/severe pre-eclampsia or pheochromocytoma: < 140mmHg in 1st hour",
+               "If aortic dissection: < 120mmHg in 1st hour",
+               "If intracerebral hemorrhage or acute ischemic stroke: refer to stroke protocol, section 2.2",
+               "All others: Reduce by 25% in 1st hour; to 160/100 over next 2-6 hours; and to normal over 24-48 hrs"
+            ],
+            "value":""
+         },
+         {
+            "name":"Systolic BP Reduction Rates Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Drugs (HTN Emergency)",
+            "type":"multi-select",
+            "options":[
+               "Labetalol - Initial 10 to 20 mg IV over 2 min; double every 10 min (up to 80 mg/dose) until target SBP is reached. Max dose: 300 mg. Continuous IV infusion: 0.5 to 2 mg/min until target reached.",
+               "Nitroglycerin - Initial 5 mcg/min; increase in increments of 5 mcg/min every 5 min to max of 200 mcg/min. Use only in patients with acute coronary syndrome and/or acute pulmonary edema.",
+               "Sodium nitroprusside - Initial 0.5 mcg/kg/min; increase in increments to achieve BP target; max dose 10 mcg/kg/min. Use for the shortest duration due to cyanide toxicity risk.",
+               "Hydralazine - Initial 10 mg slow IV infusion (max 20 mg); repeat every 4-6 hrs as needed. BP decrease in 10-30 min, lasting 2-4 hrs."
+            ],
+            "value":""
+         },
+         {
+            "name":"HTN Emergency Drugs Findings:",
+            "type":"text",
+            "value":"Nifedipine by any route is not recommended for hypertensive emergencies. Never give SL."
+         }
+      ]
+   }
+]
