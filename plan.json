@@ -1,0 +1,24 @@
+         {
+            "name":"Systolic BP Reduction Rates Findings:",
+            "type":"text",
+            "value":""
+         },
+         {
+            "name":"Drugs (HTN Emergency)",
+            "type":"multi-select",
+            "options":[
+               "Labetalol - Initial 10 to 20 mg IV over 2 min; double every 10 min (up to 80 mg/dose) until target SBP is reached. Max dose: 300 mg. Continuous IV infusion: 0.5 to 2 mg/min until target reached.",
+               "Nitroglycerin - Initial 5 mcg/min; increase in increments of 5 mcg/min every 5 min to max of 200 mcg/min. Use only in patients with acute coronary syndrome and/or acute pulmonary edema.",
+               "Sodium nitroprusside - Initial 0.5 mcg/kg/min; increase in increments to achieve BP target; max dose 10 mcg/kg/min. Use for the shortest duration due to cyanide toxicity risk.",
+               "Hydralazine - Initial 10 mg slow IV infusion (max 20 mg); repeat every 4-6 hrs as needed. BP decrease in 10-30 min, lasting 2-4 hrs."
+            ],
+            "value":""
+         },
+         {
+            "name":"HTN Emergency Drugs Findings:",
+            "type":"text",
+            "value":"Nifedipine by any route is not recommended for hypertensive emergencies. Never give SL."
+         }
+      ]
+   }
+]
