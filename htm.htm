@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Notes Viewer</title>
+<style>
+  body { font-family: system-ui, sans-serif; background: #f6f7f9; padding: 20px; color: #333; }
+  h1 { text-align: center; }
+  #search { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 20px; border-radius: 6px; border: 1px solid #ccc; }
+  .note { background: #fff; border-radius: 8px; margin-bottom: 10px; padding: 10px 15px; cursor: pointer;
+          transition: background 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+  .note:hover { background: #f0f0f0; }
+  .note-title { font-size: 18px; font-weight: 600; }
+  .note-sub { font-size: 14px; color: #666; }
+  .note-content { display: none; margin-top: 10px; line-height: 1.5; white-space: pre-line; }
+  .section { margin-top: 10px; padding: 8px 10px; border-left: 3px solid #007bff; background: #fafafa; border-radius: 6px; }
+  .section h4 { margin: 0 0 5px; font-size: 16px; color: #007bff; }
+  .section p { margin: 0; font-size: 14px; }
+  .section img { margin-top: 5px; max-width: 100%; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>🗒️ Notes Viewer</h1>
+<input type="text" id="search" placeholder="Search notes by title...">
+<div id="notesContainer">Loading notes...</div>
+
+<script>
+const sheetId = "13BJp_QjGTMKNFXGBCOAJ7zJJN7YcyJbp5LBjrkQj8vo";
+const sheetName = "Sheet1"; // change if your tab name is different
+const csvUrl = `https://opensheet.elk.sh/${sheetId}/${encodeURIComponent(sheetName)}`;
+
+let allNotes = [];
+
+// Safely parse JSON, even if nested stringified JSON
+function parseNestedJSON(str) {
+  try {
+    let obj = JSON.parse(str);
+    if (typeof obj === 'string') obj = JSON.parse(obj); // double parsing
+    return obj;
+  } catch {
+    return null;
+  }
+}
+
+// Fetch and parse the notes CSV
+async function fetchNotes() {
+  try {
+    const res = await fetch(csvUrl);
+    const text = await res.text();
+
+    // Split rows
+    const rows = text.trim().split(/\r?\n/);
+
+    allNotes = rows.map(row => {
+      // split by comma but handle JSON properly
+      const cells = row.match(/({.*?})/g) || [];
+      const header = parseNestedJSON(cells[0]);
+      const sections = cells.slice(1).map(parseNestedJSON).filter(Boolean);
+      return { header, sections };
+    }).filter(n => n.header);
+
+    renderNotes(allNotes);
+  } catch (err) {
+    document.getElementById("notesContainer").innerText = "Error loading notes: " + err;
+  }
+}
+
+// Render the notes titles + expandable sections
+function renderNotes(notes) {
+  const container = document.getElementById("notesContainer");
+  container.innerHTML = "";
+  notes.forEach(note => {
+    const div = document.createElement("div");
+    div.className = "note";
+    const { Title, SubTopic, "Sub-Topic": Sub_Topic } = note.header;
+    const subtopic = SubTopic || Sub_Topic || "";
+    div.innerHTML = `
+      <div class="note-title">${Title || "Untitled Note"}</div>
+      <div class="note-sub">${subtopic}</div>
+      <div class="note-content">${renderSections(note.sections)}</div>
+    `;
+    div.addEventListener("click", () => {
+      const contentDiv = div.querySelector(".note-content");
+      const isVisible = contentDiv.style.display === "block";
+      document.querySelectorAll(".note-content").forEach(el => (el.style.display = "none"));
+      contentDiv.style.display = isVisible ? "none" : "block";
+    });
+    container.appendChild(div);
+  });
+}
+
+// Render sections (heading + text + author + image)
+function renderSections(sections) {
+  if (!sections.length) return "<i>No sections</i>";
+  return sections.map(sec => `
+    <div class="section">
+      ${sec.Heading ? `<h4>${sec.Heading}</h4>` : ""}
+      ${sec.Text ? `<p>${sec.Text}</p>` : ""}
+      ${sec.Image ? `<img src="${sec.Image}">` : ""}
+      ${sec.By ? `<small>— ${sec.By}</small>` : ""}
+    </div>
+  `).join("");
+}
+
+// Search by title
+document.getElementById("search").addEventListener("input", e => {
+  const q = e.target.value.toLowerCase();
+  const filtered = allNotes.filter(n => (n.header?.Title || "").toLowerCase().includes(q));
+  renderNotes(filtered);
+});
+
+fetchNotes();
+</script>
+</body>
+</html>
+
